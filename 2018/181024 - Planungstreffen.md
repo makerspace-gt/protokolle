@@ -1,13 +1,13 @@
 pdf in Markdown überführt
 
 # **Planungstreffen**
-Mittwoch, 17. Oktober 2018
+Mittwoch, 24. Oktober 2018
 
 ### Anwesende Mitglieder
-Andre Siewert, Björn Koenig, Leon Farchau, Michael Prange, Olaf Koenig, Philip Markus
+Andre Siewert, Leon Farchau, Michael Prange, Philip Markus
 
 ### Gäste
-Bernd, Gerd Schiestel, Hans-Christan Meinert, Peter Mohr, René Plitzk
+Felix Kupferschmidt, Heiner Hökenschnieder
 
 ### Protokolix
 Michael Prange
@@ -16,31 +16,33 @@ Michael Prange
 gegeben
 
 ### Tagesordnungspunkte
-1. Vorstellungsrunde
-1. Auftreten nach außen
-	1. Mitmachen ist kostenlos; Mitglieder dürfen Maschinen nutzen; Es gibt eine Spendenerwartung an nicht Mitglieder;
-1. Nachrichen an die Öffentlichkeit
-	1. Bekanntmachen von Initativen sollen vorher im Vorstand abgestimmt werden
-	1. Protokoll auf Website/Gitlab online stellen
-	1. Vita des Vorstand auf Website veröffentlichen
-	1. Disclaimer, Philip fragt bei VOW an, Michael bei Digitalcourage und Repair Café
-1. Flyer überarbeiten
-	1. Spendenaufforderung auf Rückseite
-	1. Vorteile für Mitglieder direkt beim Aufklappen
-1. Jverein
-	1. Anbindung an das Konto funktioniert
-	1. Lastschrift funktioniert noch nicht
-1. Öffnungszeiten Basteltermine
-	1. Mitwochs sind Planungstreffen, Samstags sind Basteltage
-	1. Zurzeit soll jeder Samstag ein öffentlicher Basteltag sein
-	1. Mittwochs soll ein reduziertes Basteln möglich sein
-	1. Planungstreffen Feistaubsensoren am 7.11. 19:30 Uhr in der Weberei
-1. Digitaler Aufbruch
-	1. Was Tun? Was Interaktives!
-		1. Jeder kann einen individuellen Einkaufschip mit seinen Initialen drucken
-		1. selbstegabsteltes Thelemin zum Ausprobieren
-		1. Equilizer
-		1. Feinstaubsensor Life Anzeige
-		1. RC Auto?
-		1. Makerspace!
-		1. LED Throwie?
+1. Vorstellung der Elektronischen Haustür von Heiner
+1. Sicherheitsunterweisung
+	1. Es sind nur Mitglieder versichert, keine Besucher! (Haftpflicht)
+	1. Wir müssen offen kenntlich machen welche Gefahren durch Maschinen entstehen können.
+	1. Ab 20 regelmäßigen Teilnehmern pro Tag muss es einen Sicherheitsbeauftragten geben. Philip macht das (Beschluss vom Vorstand) und erstellt „Plakate“ für die einzelnen Geräte.
+	1. Wir sollten eine Hausordnung erstellen.
+1. NextCloud
+	1. Wurde installiert, läuft aber als Startseite auf dem Server ebenso wie der gitlab, dies muss noch angepasst werden (Leon, Michael)
+1. Repair Café
+	1. Leon und Michael waren als Reparatuexperten beim Repair Café in Brackwede
+	1. Wir bekommen Unterstützung bei der Einrichtung von der Brackweder Gruppe
+	1. Starttermin ab Frühling 2019
+1. Lastschriftmandat muss noch gemacht werden
+1. Welche Workshops
+	1. Arduino
+	1. Calioppe
+	1. git
+	1. 3D-Druck
+	1. Konstruktion
+	1. Slicen
+	1. Elektronische Schaltung
+	1. Löten
+	1. Freie Lizenzen (MIT, GPL, Apache, ...)
+	1. Crypto Party
+1. Digitalcourage https://digitalcourage.de/hochschulgruppe
+	1. Cryptoparty Mi, 21.11.18
+	1. Backup Party Mi, 28.11.18
+	1. Linux-Install-Party Do, 6.12.18
+1. Website ergänzen
+	1. Momentan macht die Inhalte nur Olaf, wer möchte noch Redakteur sein?
