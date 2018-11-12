@@ -1,1 +1,1 @@
-Künftige Protokolle werder hier im als [Markdown](https://guides.github.com/features/mastering-markdown/) Dateien abgelegt.
+Künftige Protokolle werder hier als [Markdown](https://guides.github.com/features/mastering-markdown/) Dateien abgelegt.
