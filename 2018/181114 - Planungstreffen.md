@@ -26,3 +26,5 @@ Michael Prange
 * Vorstellung des Vorstands auf der Website
 * Feinstaubsensoren
 * Vorteile für Mitglieder
+* Kommunikation
+* Website
