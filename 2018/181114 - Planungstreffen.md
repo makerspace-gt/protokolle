@@ -14,4 +14,15 @@ Michael Prange
 
 
 ### Tagesordnungspunkte
-1. Ablauf der Mittwochen Treffen
+* Ablauf der Mittwochen
+* Umgang mit Interessenten
+* Amtsgericht
+* Repair Café
+* Lasercutter
+* Resonaz Spendenanfragen
+* "AGB"
+* Digitaler Aufbruch
+* Lastschriftmandat
+* Vorstellung des Vorstands auf der Website
+* Feinstaubsensoren
+* Vorteile für Mitglieder
