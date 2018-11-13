@@ -4,7 +4,7 @@ Protokolle werder hier als [Markdown](https://guides.github.com/features/masteri
 Titel | Verantwortlich | erster TOP | letzter TOP
 --- | --- | --- | ---
 Versicherungsstatus | Leon | 180912 1.i. |
-Spendenanfrage korrekturlesen | Philip | 180912 2.i.a. |
+Spendenanfrage korrekturlesen | Philip | 180912 2.i.a. | 180919 6.
 Spendenanfrage Informationsblatt | Michael | 180912 2.i.c. |
 3D-Drucker der Stadt | Leon/Olaf | 180912 2.iii | 180919 3.9.
 Spendenanfragenübersicht | Michael | 180912 2.iv. |
