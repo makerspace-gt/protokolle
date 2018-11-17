@@ -8,7 +8,7 @@ Mittwoch, 21. November 2018
 
 
 ### Protokolix
-Michael Prange
+Olaf Koenig
 
 ### Beschlussfähigkeit des Vorstands
 
