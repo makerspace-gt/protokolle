@@ -27,7 +27,7 @@ gegeben
 	1. Am nächsten Sonntag ist wieder ein Repair Café in Brackwede von 14-17 Uhr, Michael geht hin.
 1. weitere Maschinen
 	1. Lasercutter
-		1. Frau Nierann ist zurzeit im Urlaub, Leon spricht mit dem Hausmeister.
+		1. Frau Niermann ist zurzeit im Urlaub, Leon spricht mit dem Hausmeister.
 	1. Drehbank
 		1. Olaf hat einen Kontakt zu einer Witwe die den Bastelkeller von ihrem verstorbenen Ehemann auflösen will.
 1. Resonaz Spendenanfragen
@@ -39,7 +39,7 @@ gegeben
 	1. Philip erstellt die Sicherheitsplakate und "AGB".
 1. Digitaler Aufbruch 23. November 2018 - 14 Uhr Aufbau - 17 Uhr Anfang - 21 Uhr Ende
 	1. Olaf erfragt die Rahmenbedingungen.
-	1. Wir stellen die Fahne von Digitalen Aufbruch auf.
+	1. Wir stellen die Fahne vom FSuB auf.
 	1. Projekte
 		1. Feinstaubsensor mit Liste zur Anmeldung für die Basteltage
 		1. Einkaufschips
@@ -51,7 +51,7 @@ gegeben
 	1. Leon und Michael sind Administratoren
 1. Kommunikation mit und zwischen den Mitgliedern
 	1. Telegramgruppe
-		1. Regelmäßige Mitglieder werden nach Absprache in die Gruppe eingeladen
+		1. Bekannte Gesichter werden nach Absprache in die Gruppe eingeladen
 	1. E-Mail Verteiler
 		1. Es gibt einen öffentlichen Verteiler über den öffentliche Nachrichten kommuniziert werden
 		1. Die Vorstandsliste wird in Zukunft geschlossen und eine interne Liste eröffnet
