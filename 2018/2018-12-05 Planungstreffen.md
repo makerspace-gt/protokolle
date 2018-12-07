@@ -26,7 +26,7 @@ gegeben
 	* Bis zu einem Alter von 14 Jahren dürfen Kinder nur am Geschehen des Makerspace Teilnehmen, wenn sie eine volljährige Begleitperson haben
 1. Einrichtung Bastelkeller
 	* die Räumlichkeiten werden am Samstag besichtigt
-1. __Bildung von Arbeitsgruppen__ Zuständigkeit für Bereiche
+1. ~~Bildung von Arbeitsgruppen~~ Zuständigkeit für Bereiche
 	* wer kümmert sich um Welchen Brereich?
 		* 3D-Druck
 		* Elektronik
