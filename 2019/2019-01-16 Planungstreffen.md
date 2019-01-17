@@ -2,7 +2,7 @@
 Mittwoch, 16. Januar 2019
 
 ### Anwesende Mitglieder
-Leon Farchau, Michael Prange, Olaf Koenig, Philip Markus
+Leon Farchau, Michael Prange, Olaf Koenig
 
 ### Gäste
 keine
