@@ -1,20 +1,11 @@
 * Mitgliederversammlung
-	* öffentlich!?!
-	* Bericht des Vorstands
 	* Bericht des Finanzministers
-* GitHub
-	* Einladung annehmen!
-	* GitHub Issues nutzen
 * Mitgliedsbeiträge Januar
-* Förderung durch Anstiftung
 * Feinstaubsensoren
 	* Bekanntmachung
 	* Wer macht Was?
 * Dankschreiben
 * Spendenbescheinigung
-* Nacht der Bibliotheken
-	* Datum ??
-	* Programm
 * Website
 	* Bankverbindung
   * Vorstellung des Vorstands auf der Website
