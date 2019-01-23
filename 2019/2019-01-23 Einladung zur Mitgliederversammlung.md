@@ -23,7 +23,7 @@ Auf der Tagesordnung stehen folgende Themen:
 	1. Entlastung des Vorstands
 	1. Entlastung des Finanzministers
 1. Festlegen von Vorteilen für Mitglieder gegenüber freien Bastlern
-1. Diskussion und Festlegung der Mitgliedsbeiträge
+1. Diskussion und Festlegung der Mitgliedsbeiträge  
 	 Vorschlag: Jedes Mitglied kann den Betrag selbst festlegen, vom Vorstand wird eine Empfehlung gegeben
 1. Sonstiges
 
@@ -33,12 +33,12 @@ Um zahlreiches und pünktliches Erscheinen wird gebeten!
 
 Mit freundlichen Grüßen
 
-i.A. Michael Prange
+i.A. Michael Prange  
 Vorstand
 
 PS: Bei Abstimmungen sind nur Mitglieder stimmberechtigt. Also noch schnell Mitglied werden!
 
-Makerspace Gütersloh e.V.
-p. Adr. Stadtbibliothek Gütersloh GmbH
-Blessenstätte 1
+Makerspace Gütersloh e.V.  
+p. Adr. Stadtbibliothek Gütersloh GmbH  
+Blessenstätte 1  
 33330 Gütersloh
