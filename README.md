@@ -1,3 +1,26 @@
+* Mitgliederversammlung
+	* öffentlich!?!
+	* Bericht des Vorstands
+	* Bericht des Finanzministers
+* GitHub
+	* Einladung annehmen!
+	* GitHub Issues nutzen
+* Mitgliedsbeiträge Januar
+* Förderung durch Anstiftung
+* Feinstaubsensoren
+	* Bekanntmachung
+	* Wer macht Was?
+* Dankschreiben
+* Spendenbescheinigung
+* Nacht der Bibliotheken
+	* Datum ??
+	* Programm
+* Website
+	* Bankverbindung
+  * Vorstellung des Vorstands auf der Website
+* Maker Faire
+	* 17.-19. Mai in Berlin
+	* 17.-18. August in Hannover
 * Vorteile für Mitglieder
 	1. Vorhandene Vorteile
 		* kostenlose Teilnahme an Workshops
@@ -5,15 +28,8 @@
 		* nur Mitglieder dürfen Maschinen benutzen
 		* Mitglieder sind Versichert
 	1. mögliche weitere Vorteile
-* Website
-	* Bankverbindung
-  * Vorstellung des Vorstands auf der Website
 * Regeln für den Telegram-Chat
-* Dankschreiben
-* Spendenbescheinigung
-* GitHub
 * nächste Einkäufe
-* Nutzung der Garage, falls bis dahin verfügbar
 * Workshops
 * Elektronenmikroskop
 * eigene Räumlichkeiten
