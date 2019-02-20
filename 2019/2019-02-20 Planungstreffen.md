@@ -37,3 +37,4 @@ gegeben
 	- [git / github / gitlab](http://try.github.io/) (Michael)
 1. Anstiftung
 	- Antrag an die [Anstiftung](https://anstiftung.de/) bzgl. Lasercutter, sofern die [Mitgliederversammlung](https://github.com/Makerspace-GT/Protokolle/blob/master/2019/2019-01-23%20Einladung%20zur%20Mitgliederversammlung.md) zustimmt (Leon & Michael)
+  - Info: [Gelingende Vereinsarbeit ](https://anstiftung.de/downloads/download/20-webinare/100067-gelingende-vereinsarbeit)
