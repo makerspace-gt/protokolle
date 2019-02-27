@@ -78,7 +78,11 @@ Das Ergebnis der Abstimmung: 5 Ja-Stimmen, 3 Nein-Stimme und 1 Enthaltungen.
 Die Mitgliederversammlung wurde um 19:00 Uhr pausiert und um 19:15 Uhr in der **Osteria am Kirchplatz**, Berliner Str. 2, 33330 Gütersloh fortgesetzt.<br>
 Andre Siewert und Heiner Hökenschnieder haben sich von der Mitgliederversammlung verabschiedet.
 
+<<<<<<< HEAD
 - Es wurde darüber disktiert und per Handzeichen abgestimmt, dass jedes (potentielle) Mitglied (z.B. Schüler, Studenten, Rentner, ...) dazu berechtigt ist nur den ermäßigten Beitrag zu zahlen, darüber wird im Einzelfall vom Vorstand abgestimmt.<br>
+=======
+- Es wurde darüber disktiert und per Handzeichen abgestimmt, dass jedes (potentielle) Mitglied (z.B. Schüler, Studenten, Rentner, ...) dazu berechtigt ist nur den ermäßigten Beitrag zu zahlen, darüber wird im Einzelfall vom Vorstand abgestimmt, <br>
+>>>>>>> be6c8b4ba5e30183c3033b9ff78dc8156343c8c3
 Das Ergebnis der Abstimmung: 6 Ja-Stimmen, 1 Nein-Stimme und keine Enthaltungen.
 
 - Es wurde über den Mindestbeitrag für Ermäßigte von 5 € disktiert und per Handzeichen abgestimmt.<br>
