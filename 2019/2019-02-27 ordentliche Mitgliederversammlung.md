@@ -42,7 +42,8 @@ Per Handzeichen wurde diese Tagesordnung einstimmig angenommen.
 ---
 **TOP3 - Berichte:**
 - Philip  Markus stellte vor, was im Kalenderjahr 2018 alles geschehen ist (siehe Anhang).
-- Leon Farchau präsentierte die Einnahmen und Ausgaben in tabellarischer Form. Der Kontostand am 28. Dezember 2018 betrug 632,65 €.
+- Leon Farchau präsentierte die Einnahmen und Ausgaben in tabellarischer Form.<br>
+Der Kontostand am 28. Dezember 2018 betrug 632,65 €.
 ---
 **TOP4 - Kassenprüfung:**
 - Mit Einverständnis aller Anwesenden übernahm Philip Markus die Funktion des Kassenprüfers.
@@ -105,4 +106,22 @@ Leon Farchau (Versammlungsleiter)<br>
 Michael Prange (Protokollführer)
 
 ---
-**Anhang**
+**Anhang zu TOP3**
+
+#### Jahresrückblick 2018/17
+Start der Idee eines Makerspaces in Gütersloh<br>
+Aufsetzten einer Webseite für den zukünftigen Makerspace<br>
+**Februar bis Juni** - Organisatorisches Maßnahmen, Vorbereiten der Anmeldung<br>
+Eintragung in das Vereinsregister<br>
+Einrichten der Räumlichkeiten mit Stühlen, Arbeitstischen, Material und Werkzeugen<br>
+**Anfang Oktober** - Anschaffung eines ersten 3D -Druckers<br>
+Teilnahme am Feinstaubprojekt des FSuB und der Verkehrswende<br>
+Änderung des Vereinsvorstands<br>
+**13.10.2018** - Feierliche Eröffnung des Makerspaces mit Besuch des Bürgermeisters<br>
+**23.11.2018** - Teilnahme am digitalen Aufbruch im Gütersloher Theater<br>
+**Anfang Dezember** - Beschaffung eines zweiten 3D-Druckers<br>
+Aufsetzten eines Git-Repositorys und eines Makerspace -Servers<br>
+**Januar 2019** - Einzug der Mitgliedsbeiträge per Lastschrift<br>
+#### Aussicht für 2019
+**02.03.2019** - Start des Repair-Cafes<br>
+Start von Kursen und Seminaren wie bspw. Git
