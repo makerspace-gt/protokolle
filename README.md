@@ -6,3 +6,6 @@
 	* 17.-18. August in Hannover
 * nächste Einkäufe
 * eigene Räumlichkeiten
+* Tranzparenzbericht
+* LDAP
+* Social Media
