@@ -1,5 +1,5 @@
 # **Planungstreffen**
-Mittwoch, 11. April 2018
+Montag, 11. April 2018
 
 ### Anwesende Mitglieder
 Andre Siewert, Leon Farchau, Leonard Manefeld, Olaf Koenig, Philip Markus
