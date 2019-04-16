@@ -17,6 +17,7 @@ gegeben
 1. Kontoeröffnung, Recherche und Bedingungen  
     - Kontoeröffnung ist generell erst nach Registereintrag des Vereins möglich.
     - weitere Recherche nach geeigneten Banken (möglichst kostenlose Kontoführung, möglichst vor Ort) erfolgt durch Leon
+
 1. Vereinsanmeldung, Statusbericht  
     Termin beim Notar steht für Alex und Olaf am Freitag, 11.05.18 an. Danach sollte der Antrag zum Amtsgericht gehen können
 1. Vereinsversicherung, Angebotsvergleich  

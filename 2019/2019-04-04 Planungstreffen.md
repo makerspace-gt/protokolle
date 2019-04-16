@@ -33,6 +33,7 @@ gegeben
         Philip kümmert sich um Werkzeug für ca. 70 € und Leon kauft das dann ein.
     1. Sicherungen  
         Philip kauft einen Satz
+
 1. Regeln für den Chat / die Kommunikation  
     - keine Themenbezogene Diskussion im Chat
     - keine unkommentierten Links

@@ -18,6 +18,7 @@ nicht gegeben
 ### Tagesordnungspunkte
 1. Kontoeröffnung
 	1. Es ist noch kein Zugriff auf das Konto möglich (Leon).
+
 1. Vorbereitung für den 13. Oktober
 	1. Werkzeugkasten bei Aldi nicht mehr erhältlich. Alternative? (Olaf)
 	1. Starttermin wurde mit der Bibliothek abgestimmt.

@@ -17,6 +17,7 @@ gegeben
 1. Erneuter Bericht zum Status der Vereinsanmeldung  
     Anmeldung durch Notar beim Amtsgericht ist erfolgt.  
     Es bleibt die Eintragung abzuwarten.
+
 1. Umsetzung der DSGVO bis zum 25.05.2018  
     - Es wurden Ausdrucke mit den wesentlichen zu beachtenden Punkten verteilt und erklärt. Zur Umsetzung wurde die Datenschutzerklärung von Leon schon testweise neu generiert.
     - Die konkrete Umsetzung der Datenschutzerklärung und des Impressums nimmt Leon im Laufe der Woche von zu Hause aus vor.

@@ -17,6 +17,7 @@ gegeben
 1. Agendaveröffentlichung
 	Die Agenda wird bis auf sensible Themen veröffnetlicht und soll von allen Mitgliedern editiert werden können.
 	Michael und Leon richten einen Ordner in der Cloud ein und kümmern sich um die Rechteverwaltung.
+
 1. Probeworkshop git
 	Leon und Michael bereiten einen Workshop für die erste Februarwoche vor.
 1. Probeworkshop cloud

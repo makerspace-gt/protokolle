@@ -16,6 +16,7 @@ gegeben
 ### Tagesordnungspunkte
 1. Erneuter Bericht zum Status der Vereinsanmeldung  
     Die Situation ist unverändert, die Eintragung als Verein steht weiterhin aus.
+
 1. Bericht zum Status der DSGVO-Umsetzung  
     Die DSGVO wurde auf der Website nach bestem Wissen und Gewissen von Leon umgesetzt. Weitere Schritte werden zunächst nicht unternommen, bis evtl. fachkundige Hilfe durch Attraktor verfügbar ist. Ggf. wird dann noch einmal nachgebessert.
 1. Beratung über die „Ideenliste“ bzgl. Kooperation mit Attraktor,

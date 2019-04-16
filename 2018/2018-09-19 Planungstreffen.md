@@ -17,6 +17,7 @@ gegeben
 
 ### Tagesordnungspunkte
 1. Onlinebanking nach wie vor nicht möglich
+
 1. Rücktritt Alex als Vereinsvorsitzender, gemeldet per SMS an Leon, daraufhin schriftliche Einladungen zu Mitgliederversammlung am 10.10. per E-Mail (Michael)
 1. Vorbereitungen für den 13.10. (Starttermin regelmäßiger Betrieb):
 	1. Weitere Füße für Tischbeine fräsen (Leon)

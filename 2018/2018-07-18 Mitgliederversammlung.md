@@ -17,6 +17,7 @@ gegeben
 1. Statusbericht zum Thema Kontoeröffnung / Crowdfunding / Versicherung  
     - Die eigentlich zuständige Mitarbeiterin war krank und die Vertretung nur oberflächlich informiert. Es wird daher zum Thema Crowdfunding ein Telefongespräch mit der zuständigen Kollegin folgen.
     - Fest steht bereits, daß die Kontoführung bei der Volksbank kostenlos ist, so daß der Kontoeröffnung nichts im Wege steht. Möglicherweise werden noch Ausweiskopien von Philip und Alex benötigt.
+
 1. Überprüfung der "Einkaufsliste" auf Vollständigkeit  
     Die Einkaufsliste wurde on den Anwesenden nochmals begutachtet und für zunächst
 vollständig befunden.

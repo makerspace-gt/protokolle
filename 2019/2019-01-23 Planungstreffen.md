@@ -18,6 +18,7 @@ gegeben
 	1. Die Einladung zur Mitgliederversammlung wird über die Mailingliste, Website und GitHub veröffentlicht. (Michael)
 	1. Bericht des Vorstands
 		Philip schreibt einen Jahreszusammenfassung
+
 1. GitHub (Michael)
 	1. Einladung an alle Mitglieder
 	1. Teams, Projects und Issues auf Grundlage der vorhandenen Protokolle erstellen

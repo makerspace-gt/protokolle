@@ -16,6 +16,7 @@ gegeben
 ### Tagesordnungspunkte
 1. Lastschriftverfahren
 	Es gibt noch Schwierigkeiten bei der Einrichtung, für den Januar sollen die Beiträge manuell überwiesen werden. (Leon)
+
 1. Mitgliederversammlung
 	1. Satzungsänderungen werden nur angesprochen, aber nicht abgestimmt
 	1. Finanzbericht muss erstellt werden, für Unterstützung können wir uns an den FSUB wenden (Olaf)

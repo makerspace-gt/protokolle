@@ -21,7 +21,6 @@ gegeben
 1. Aussprache über die am 09.04. vorformulierten Regelungen bzgl. vereinsrelevanter Entscheidungen  
     Es bestand Uneinigkeit über die Frist, die für eine Antwort über den Vorstandsverteiler hinsichtlich zu entscheidender Anfragen zu setzen ist.  
     Nach längerer Diskussion wurde per Abstimmung mit 5 zu 1 Stimmen eine Frist von 2 Tagen angenommen.
-
 1. Gesprächsplanung für Treffen am 18.04. mit Angestellten der Bibliothek  
     Für das anstehende Gespräch mit Angestellten der Bibliothek wurde eine eine Agenda erstellt, als Gesprächsführer für diesen Termin wurde Leon Farchau bestimmt.  
     Folgende Agenda soll abgearbeitet werden:

@@ -17,6 +17,7 @@ gegeben
 
 ### Tagesordnungspunkte
 1. Vorstellungsrunde
+
 1. Auftreten nach außen
 	1. Mitmachen ist kostenlos; Mitglieder dürfen Maschinen nutzen; Es gibt eine Spendenerwartung an nicht Mitglieder;
 1. Nachrichen an die Öffentlichkeit
