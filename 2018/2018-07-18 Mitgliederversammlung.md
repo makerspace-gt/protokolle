@@ -1,4 +1,4 @@
-# **Planungstreffen**
+# **Mitgliederversammlung**
 Mittwoch, 18. Juli 2018
 
 ### Anwesende Mitglieder

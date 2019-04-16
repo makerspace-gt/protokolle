@@ -1,4 +1,4 @@
-# **Planungstreffen**
+# **außerordentliches Mitgliedertreffen**
 Montag, 11. April 2018
 
 ### Anwesende Mitglieder

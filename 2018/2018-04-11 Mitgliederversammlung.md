@@ -1,4 +1,4 @@
-# **Planungstreffen**
+# **Mitgliederversammlung**
 Mittwoch, 11. April 2018
 
 ### Anwesende Mitglieder
@@ -17,15 +17,17 @@ gegeben
 1. Bericht zum Status der Vereinsanmeldung  
     Alex berichtete, daß Sarah Franke vom Gründungsprotokoll entfernt werden müsse, weil er dem Notar den tatsächlichen Sachverhalt geschildert habe und dieser daraufhin eine entsprechende Änderung angeraten habe.  
     Diese Änderungen werden vorgenommen und die Dokumente am Freitag, 13.04.18 gemeinsam von Alex und Olaf dem Notar erneut zur weiteren Bearbeitung übergeben.
+
 1. Aussprache über die am 09.04. vorformulierten Regelungen bzgl. vereinsrelevanter Entscheidungen  
     Es bestand Uneinigkeit über die Frist, die für eine Antwort über den Vorstandsverteiler hinsichtlich zu entscheidender Anfragen zu setzen ist.  
     Nach längerer Diskussion wurde per Abstimmung mit 5 zu 1 Stimmen eine Frist von 2 Tagen angenommen.
+
 1. Gesprächsplanung für Treffen am 18.04. mit Angestellten der Bibliothek  
     Für das anstehende Gespräch mit Angestellten der Bibliothek wurde eine eine Agenda erstellt, als Gesprächsführer für diesen Termin wurde Leon Farchau bestimmt.  
     Folgende Agenda soll abgearbeitet werden:
     - Nochmalige kurze Vorstellung, was ein Makerspace ist und macht  
     Zur Unterstützung dieser Vorstellung wird der Bibliothek im Vorfeld leihweise ein Kontingent von Make-Zeitschriften durch Olaf Koenig zur Verfügung gestellt.  
-    Dadurch sollen die iele des Makerspace weiter verdeutlicht werden.
+    Dadurch sollen die Ziele des Makerspace weiter verdeutlicht werden.
     - Vorstellung von Beispielprojekten:
         - RC Modellautobau
         - Programmierung: Arduino, Raspberry, etc.

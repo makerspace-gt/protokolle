@@ -1,4 +1,4 @@
-# **Planungstreffen**
+# **Mitgliederversammlung**
 Mittwoch, 09. Mai 2018
 
 ### Anwesende Mitglieder
