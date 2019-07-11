@@ -1,5 +1,5 @@
 # **Protokoll der außerordentlichen  Mitgliederversammlung des Makerspace&nbsp;Gütersloh&nbsp;e.V.**
-Es versammelten sich heute, am 10. Juli 2019 um 17:30 Uhr in den FH Räumen der **Stadtbibliothek&nbsp;Gütersloh**, Blessenstätte 1, 33330 Gütersloh 12 Personen zur ordentlichen Mitgliederversammlung des Makerspace&nbsp;Gütersloh&nbsp;e.V.
+Es versammelten sich heute, am 10. Juli 2019 um 17:30 Uhr in den FH Räumen der **Stadtbibliothek&nbsp;Gütersloh**, Blessenstätte 1, 33330 Gütersloh 12 Personen zur außerordentlichen Mitgliederversammlung des Makerspace&nbsp;Gütersloh&nbsp;e.V.
 
 ### Anwesende Mitglieder
 Andre Siewert, Leon Farchau, Jens-Peter Kubsch, Michael Prange, Olaf Koenig, Philip Markus, René Heszer, René Plitzko
