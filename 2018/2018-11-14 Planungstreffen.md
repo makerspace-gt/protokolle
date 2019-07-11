@@ -18,6 +18,7 @@ gegeben
 	1. Mittwochs kommen immer mehr neue Leute die sich informieren und vorstellen wollen, daher wird das Treffen geteilt in Bastler auf der Empore und Organisateure in den FH Räumen.
 	1. Die Agenda soll in der Cloud gepflegt werden, sodass sich alle vorher informieren und beteiligen können.
 	1. Die Protokolle der Planungstreffen sollen veröffentlicht werden, Ausnahmen sollen im Vorstandstreffen behandelt werden (z.B. detaillierte Finanzen, Mahnungen)
+
 1. Umgang mit Interessenten
 	1. Interessenten sollen am Mittwoch vorne bei den Bastlern aufgenommen werden
 	1. Am Samstag sollte es mindestens eine Person geben die den Basteltag überblickt und sich um Interessenten kümmert

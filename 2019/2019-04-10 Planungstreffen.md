@@ -17,6 +17,7 @@ gegeben
 1. Anschaffungen für das Repair Café
     1. Philip hat ein Anschlusskabel für den dritten Tisch gekauft
     1. Es gibt keine Vernünftigen Kleinverteiler die sich unter den Tisch montieren lassen. Philip guckt nach FI-Zwischensteckern
+
 1. Fahrplan für die Kooperation mit der ASH
     1. Repair Café
         - Die ASH hat uns darauf angesprochen ein Kooperatives Repair Café zu veranstalten (zweiter Standort im [Fundus](https://www.ash-gt.de/fundus))

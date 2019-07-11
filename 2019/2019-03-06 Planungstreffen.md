@@ -15,6 +15,7 @@ gegeben
 
 ### Tagesordnungspunkte
 1. Vorstellungsrunde
+
 1. Vereinsheim
 	1. Diskussion ["Brockweg 300"](https://silicon-verl.de/home/flo/tmp/brockweg300/W19_01_029.pdf)
 	1. Anfrage an das Bürgermeisterbüro (Olaf & Florian)

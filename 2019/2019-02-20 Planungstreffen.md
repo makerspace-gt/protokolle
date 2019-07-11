@@ -17,6 +17,7 @@ gegeben
 1. Verteilung der Dokumente
 	- Philip beherbergt alle Originaldokumte
 	- alle Dokumente werden eingescannt und mit [paperless](https://github.com/the-paperless-project/paperless/blob/master/README-de.md) organisiert
+
 1. LDAP
 	- Leon und Jens richten ein [LDAP](https://de.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) ein
 1. Regeln für den Telegram-Chat

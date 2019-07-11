@@ -19,6 +19,7 @@ gegeben, da Olaf Koenig telefonisch abgestimmt hat
 1. Versicherung
 	1. Konkreter Status ist nicht bekannt, Leon wird sich informieren.
 	1. Ein zusätzliches Treffen mit Silke Niermann bzgl. der Überschneidungen der Makerspace-Versicherung mit der Bibliotheksversicherung steht noch aus.
+
 1. Spendenanfrage
 	1. Anschreiben
 		1. Es wurde eine Spendenanfrage (siehe Anhang) vorgestellt, welche an Firmen gerichtet werden soll zu denen wir keinen persönlichen Bezug haben. Die Spendenanfrage soll noch einmal Korrektur gelesen werden (Philip).

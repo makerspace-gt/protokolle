@@ -17,6 +17,7 @@ gegeben
 
 ### Tagesordnungspunkte
 1. Vorstellung der Elektronischen Haustür von Heiner
+
 1. Sicherheitsunterweisung
 	1. Es sind nur Mitglieder versichert, keine Besucher! (Haftpflicht)
 	1. Wir müssen offen kenntlich machen welche Gefahren durch Maschinen entstehen können.

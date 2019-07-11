@@ -18,6 +18,7 @@ gegeben
 ### Tagesordnungspunkte
 1. FH-Projekt von Leon und Philip
 	1. Autorisierung mittels RFID für Geräte
+
 1. Funktionen innerhalb des Vorstandes
 	1. alle sind gleich
 		* Leon => Finanzminister
