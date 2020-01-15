@@ -1,4 +1,4 @@
-# **Planungstreffen**
+# **Community-Runde**
 Mittwoch, 15. Januar 2020
 
 ### Anwesende Mitglieder
