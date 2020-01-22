@@ -15,16 +15,16 @@ nicht gegeben
 
 ### Tagesordnungspunkte
 1. [Öffnungszeiten](https://git.makerspace-gt.de/makerspace-gt/todo/issues/2)
-    * Basteltreffen absprechen via Forum?  
+    * [Basteltreffen absprechen via Forum?](https://forum.makerspace-gt.de/t/exklusive-basteltreffen/285)  
       z.B. "Ich würde gerne am Donnerstag ab 19 Uhr basteln. Wer leistet mir Gesellschaft?"
 1. [PVC-Vorhang](https://git.makerspace-gt.de/makerspace-gt/todo/issues/4)
     * Das Vorhang-Material ist da, am Samstag kann mit dem Basteln begonnen werden.
     * Die Idee ist einen Balken zwischen Wandstück und Holzwand zu befestigen und daran den Vorhang festzuschrauben.
 1. [3D-Druck Workshop](https://forum.makerspace-gt.de/t/prusaslicer-modelle-fuer-den-3d-druck-vorbereiten)
-    * Am 8. Februar 2020 ist ein 3D-Druck Workshop ab 11:00 Uhr im Multiraum@Stadtbibliothek
+    * Am 8. Februar 2020 ist ein 3D-Druck Workshop ab 11:00 Uhr im Multiraum\@Stadtbibliothek
 1. [Mitgliederversammlung](https://git.makerspace-gt.de/makerspace-gt/todo/issues/3)
     * Einladung durch den Vorstand
-    * 29.02.2020, 11 Uhr, Konferenzraum@Stadtbibliothek
+    * 29.02.2020, 11 Uhr, Konferenzraum\@Stadtbibliothek
     * Kriterien zur Schlüsselvergaben
     * Wann darf im Makerspace gebastelt werden (mindestens 2 Personen, ...)
     * Maschinen-Ansprechpartner
