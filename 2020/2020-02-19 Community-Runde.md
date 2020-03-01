@@ -23,7 +23,7 @@ Mittwoch, 19. Februar 2020
    * Welche Kriterien gibt es für ein Vereinsprojekt?
      * transportabel
      * nicht zu komplex
-     * für öffentliche Veranstaltunen geeignet
+     * für öffentliche Veranstaltungen geeignet
      * leicht nachzubauen
      * interdisziplinär
      * mit Motor und/oder Licht
@@ -42,5 +42,5 @@ Mittwoch, 19. Februar 2020
 7. #22 Bezeichnung für Maschinenanprechpartner
    * Bei der Mitgliederversammlung wollen wir verschiedene Ansprechpartner für Maschinen finden. Um den Überblick zu behalten soll es z.B. Hauptansprechpartner, Ansprechpartner und Benutzer geben (nur mit cooleren Bezeichnungen).
    * In Anlehnung an den CCC Erzengel / Engel
-   * 1. Maschinist, 2. Maschinist, Obermaschinist, Ernannter Maschinist, Pilot
+   * 1\. Maschinist, 2. Maschinist, Obermaschinist, Ernannter Maschinist, Pilot
    * nautische Begriffe? Captain, Commodore
