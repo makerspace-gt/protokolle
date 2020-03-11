@@ -143,7 +143,7 @@ Johannes verlässt die Versammlung.
    | Office & Print-Management | Uta                      |
    | Repair Café               | Michael P., Uta          |
    | Schweißgerät              | -                        |
-   | Soziale Medien            | Uta, Sarah               |
+   | Soziale Medien            | Uta, Sarah, Paul         |
    | Standbohrmaschine         | Michael K.               |
    | Stichsäge                 | -                        |
    | Termine                   | Michael P.               |
