@@ -26,7 +26,7 @@ Mittwoch, 18. März 2020
    * wurde gekauft
 1. #23 LangeNachtDerKunst
    * trotzdem schon [Ideen Sammeln](https://forum.makerspace-gt.de/t/langenachtderkunst-2020/)
-1. #31 Verträge öffentlcih zugänglich machen
+1. #31 Verträge öffentlich zugänglich machen
    * Im Forum verfügbar
 1. #16 Basteln
    * Michael baut eine "Toniebox"
