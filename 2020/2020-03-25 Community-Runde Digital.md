@@ -19,13 +19,13 @@ Mittwoch, 18. März 2020
    * Aufnahmeprogamm?
      * [OBS Studio](https://obsproject.com/de)
 1. #27 Wegweiser
-  * ![](https://forum.makerspace-gt.de/uploads/default/original/1X/5382617f1cd20bd7bbe87fb6a91eda2e13f9b652.png)
-  * muss nach der Pandemie gelasert werden
-  * aus Holz lasern und mit Klarlack gegen Witterung schützen
+   * ![](https://forum.makerspace-gt.de/uploads/default/original/1X/5382617f1cd20bd7bbe87fb6a91eda2e13f9b652.png)
+   * muss nach der Pandemie gelasert werden
+   * aus Holz lasern und mit Klarlack gegen Witterung schützen
 1. #35 Tellerschleifer
-  * wurde gekauft
+   * wurde gekauft
 1. #23 LangeNachtDerKunst
-  * trotzdem schon [Ideen Sammeln](https://forum.makerspace-gt.de/t/langenachtderkunst-2020/)
+   * trotzdem schon [Ideen Sammeln](https://forum.makerspace-gt.de/t/langenachtderkunst-2020/)
 1. #31 Verträge öffentlcih zugänglich machen
   * Im Forum verfügbar
 1. #16 Basteln
