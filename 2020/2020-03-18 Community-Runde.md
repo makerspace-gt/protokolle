@@ -40,7 +40,7 @@ Mittwoch, 18. März 2020
    * Webcams (2x)
    * Headsets (2x)
    * Freisprechanlage
-1.  #27 Wegweiser
+1. #27 Wegweiser
    * Skizze wird digitalisiert
 1. #26 Verbesserung Lasercutter
    * Anfrage aufgrund der Apokalypse verschoben
