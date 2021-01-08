@@ -24,9 +24,14 @@ Auf der Tagesordnung stehen folgende Themen:
    2. Entlastung der Schatzmeisterin
 6. Vorstandswahlen
 7. Vereinsziele für das Jahr 2021
-   1. Macadamia
-   2. Next Level
-   3. Labor
+   1. Föderation mit Vereinen
+      - Hackerspace Bielefeld
+      - ACME Labs
+      - FSuB
+      - VOW
+   2. Macadamia
+   3. Next Level
+   4. Labor
 8.  Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
