@@ -42,6 +42,7 @@ Auf der Tagesordnung stehen folgende Themen:
    3. Next Level
    4. Labor
    5. Mario Kart Carrera Bahn
+   6. Replicator - SLA 3D-Drucker
 8.  Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
