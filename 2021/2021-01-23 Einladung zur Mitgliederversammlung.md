@@ -16,6 +16,15 @@ Auf der Tagesordnung stehen folgende Themen:
    1. Bericht des Vorstands
    2. Bericht der Schatzmeisterin
    3. Umsetzung der Beschlüsse der letzten Mitgliederversammlung
+      1. Schlüsselvergabe
+         - Vertrag zur Schlüsselübergabe
+         - neue Schlüssel
+      2. Bericht über exklusive Basteltreffen
+      3. Maschinenansprechpartner
+         - Verantwortliche
+         - Checklisten
+      4. Workshops
+      5. Mitgliederkisten
 4. Kassenprüfung
    1. Wahl eines Kassenprüfers
    2. Bericht des Kassenprüfers
