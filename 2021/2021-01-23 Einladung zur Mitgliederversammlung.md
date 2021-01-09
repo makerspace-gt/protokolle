@@ -38,6 +38,7 @@ Auf der Tagesordnung stehen folgende Themen:
       - ACME Labs
       - FSuB
       - VOW
+      - namu Bielefeld
    2. Macadamia - Workshop Equipment
    3. Next Level - Infrastrukturausbau der Werkstatt
    4. Labor - Ausstattung für die Küche
