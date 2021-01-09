@@ -32,6 +32,7 @@ Auf der Tagesordnung stehen folgende Themen:
    2. Macadamia
    3. Next Level
    4. Labor
+   5. Mario Kart Carrera Bahn
 8.  Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
