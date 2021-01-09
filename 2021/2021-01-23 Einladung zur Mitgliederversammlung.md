@@ -38,9 +38,9 @@ Auf der Tagesordnung stehen folgende Themen:
       - ACME Labs
       - FSuB
       - VOW
-   2. Macadamia
-   3. Next Level
-   4. Labor
+   2. Macadamia - Workshop Equipment
+   3. Next Level - Infrastrukturausbau der Werkstatt
+   4. Labor - Ausstattung für die Küche
    5. Mario Kart Carrera Bahn
    6. Replicator - SLA 3D-Drucker
 8.  Sonstiges
