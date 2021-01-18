@@ -42,6 +42,7 @@ Auf der Tagesordnung stehen folgende Themen:
         - ACME Labs
         - VOW
       - 3D-Druck Begleitung für das namu Bielefeld
+      - Crypto-Party mit der Digitalcourage Hochschulgruppe
    2. Mensura - Minecraft
    3. Macadamia - Workshop Equipment
    4. Next Level - Infrastrukturausbau der Werkstatt
