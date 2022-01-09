@@ -8,36 +8,36 @@ ein. Die Mitgliederversammlung findet per Videokonferenz unter **https://public.
 **Es ist nicht ohne weiteres möglich geheime Wahlen durchzuführen. Bisher ist es noch nie erforderlich gewesen. Wenn ihr geheim abstimmen möchtet schreibt eine Mail an vorstand@makerspace-gt.de, dann richten wir etwas ein.**
 
 Auf der Tagesordnung stehen folgende Themen:
-1. Begrüßung
+1. Begrüßung (Leon)
 	- Begrüßung der Anwesenden
 	- Vorstellung der Tagesordnung
 	- Vorstellung der Funktionen von [Senfcall aka. BBB aka. BigBlueButton](https://www.senfcall.de/)
 	- Vorstellung von [Mentimeter](https://www.mentimeter.com/)
 2. Formalien
-	1. Wahl eines Versammlungsleiterin
-	2. Wahl eine Protokollführerin
+	1. Wahl eines Versammlungsleiterin (Leon?)
+	2. Wahl eine Protokollführerin (Michael?)
 	3. [Feststellung der ordentlichen Einberufung und Beschlussfähigkeit der Mitgliederversammlung nach § 8](https://github.com/makerspace-gt/satzung-dokumente/blob/main/Satzung.md#-8-mitgliederversammlung)
 		> - Die ordentliche Mitgliederversammlung wird jedes Jahr vom Vorstand einberufen.
 		> - Die Einladung zur Mitgliederversammlung ist den Mitgliedern in Textform unter Angabe von Ort, Zeit und Tagesordnung mindestens vier Wochen vorher, bei außerordentlichen Mitgliederversammlungen mindestens zwei Wochen vorher zu übersenden.
 		> - Die Mitgliederversammlung ist beschlußfähig, wenn sie ordnungsgemäß einberufen wurde und mindestens ein Siebtel der stimmberechtigten Mitglieder anwesend ist. Ist weniger als ein Drittel der stimmberechtigten Mitglieder anwesend, kann die Mitgliederversammlung erneut einberufen werden; sie ist dann ohne Rücksicht auf die Zahl der anwesenden Mitglieder beschlußfähig. Auf diesen Umstand wird in der Einladung hingewiesen.
 3. Bericht des Vorstands
-	1. [Meilensteine des Makerspace Gütersloh im Jahr 2021](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/4)
+	1. [Meilensteine des Makerspace Gütersloh im Jahr 2021](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/4) (Philip)
 	2. Umsetzung der Beschlüsse der letzten Mitgliederversammlungen
-		1. Verträge für Dauerleihgaben
-		2. Schlüssel für den Makerspace
-		3. Maschinenansprechpartnerinnen
-		4. Workshops
-		5. Mitgliederkisten
-		6. neue Föderationen
-		7. Mensura - Minecraft
-		8. Macadamia
-		9. Kitchen Raid - Ausstattung für die Küche
-		10. Website Relaunch
-		11. Social Media Auftritt
+		1. Verträge für Dauerleihgaben (Uta)
+		2. Schlüssel für den Makerspace (Uta)
+		3. Maschinenansprechpartnerinnen (Michael)
+		4. Workshops (Philip)
+		5. Mitgliederkisten (Leon)
+		6. neue Föderationen (Michael)
+		7. Mensura - Minecraft (Jens)
+		8. Macadamia (Michael)
+		9. Kitchen Raid - Ausstattung für die Küche (Michael)
+		10. Website Relaunch (Uta)
+		11. Social Media Auftritt (Sarah)
 	3. Projekte die aktuell nicht weiter gehen
-		- Mario Cart Karrera Bahn
-		- Next Level   
-	4. Ausblicke für das Jahr 2022
+		- Mario Cart Karrera Bahn (Leon)
+		- Next Level (Michael)
+	4. Ausblicke für das Jahr 2022 (Jens)
 		1. Motto: "Wir wollen uns mehr Treffen (soweit möglich)"
 			- regelmäßige Öffnung am Sonntag
 			- Workshop zum Thema "einfach und pragmatisch Treffen organisieren"
@@ -51,9 +51,9 @@ Auf der Tagesordnung stehen folgende Themen:
 			- Holodeck - VR / New Work
 			- Engagement - Gemeinschaft gestalten - engagierte Nachbarschaft leben
 4. Abstimmung über Ziele für das Jahr 2022
-5. Bericht der Schatzmeisterin
+5. Bericht der Schatzmeisterin (Uta)
 6. Kassenprüfung
-	1. Wahl einer Kassenprüferin
+	1. Wahl einer Kassenprüferin (Tim?)
 	2. Bericht der Kassenprüferin
 7. Entlastungen
 	1. Entlastung des Vorstands
