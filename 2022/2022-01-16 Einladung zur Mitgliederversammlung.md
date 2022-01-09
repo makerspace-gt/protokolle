@@ -53,11 +53,11 @@ Auf der Tagesordnung stehen folgende Themen:
 4. Abstimmung über Ziele für das Jahr 2022
 5. Bericht der Schatzmeisterin
 6. Kassenprüfung
-	4. Wahl einer Kassenprüferin
-	5. Bericht der Kassenprüferin
+	1. Wahl einer Kassenprüferin
+	2. Bericht der Kassenprüferin
 7. Entlastungen
-	6. Entlastung des Vorstands
-	7. Entlastung der Schatzmeisterin
+	1. Entlastung des Vorstands
+	2. Entlastung der Schatzmeisterin
 8. Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
