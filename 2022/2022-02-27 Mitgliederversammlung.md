@@ -41,8 +41,8 @@ Auf der Tagesordnung stehen folgende Themen:
 	- Vorstellung der Funktionen von [Senfcall aka. BBB aka. BigBlueButton](https://www.senfcall.de/)
 	- Vorstellung der Tagesordnung
 2. Formalien
-	1. Wahl eines Versammlungsleiterin (Leon?)
-	2. Wahl eine Protokollführerin (Michael?)
+	1. Wahl einer Versammlungsleiterin (Leon?)
+	2. Wahl einer Protokollführerin (Michael?)
 	3. [Feststellung der ordentlichen Einberufung und Beschlussfähigkeit der Mitgliederversammlung nach § 8](https://github.com/makerspace-gt/satzung-dokumente/blob/main/Satzung.md#-8-mitgliederversammlung)
 		> - Die ordentliche Mitgliederversammlung wird jedes Jahr vom Vorstand einberufen.
 		> - Die Einladung zur Mitgliederversammlung ist den Mitgliedern in Textform unter Angabe von Ort, Zeit und Tagesordnung mindestens vier Wochen vorher, bei außerordentlichen Mitgliederversammlungen mindestens zwei Wochen vorher zu übersenden.
@@ -203,7 +203,7 @@ Auf der Tagesordnung stehen folgende Themen:
 ### 3.3.1. Mario Cart Karrera Bahn (Leon)
 
 - Projekt zu Groß für zwei Personen (Leon und Tim)
-- Es wurde über die Dikussion der Fortführung des Projektes 
+- Es wurde über die Fortführung des Projektes diskutiert
 - Nächsten Schritte beinhalten auch die Modellierung der Strecke
 - Geplant für den Gütersloher Frühling
 - Von Witthoff war es nur eine Sachspende ohne weiter Verpflichtung
@@ -251,7 +251,7 @@ Auf der Tagesordnung stehen folgende Themen:
 
 - Einnahmen insgesamt ~12.900 €
 - Ausgaben insgesamt ~11.700 €
-- Getränke sind nicht gedeckt? Beim Repair Café und Vereinsprojekten werden die Mitwirkenden kostenlos versorgt.
+- Ausgaben des Zweckbetriebs (Getränke) sind nicht gedeckt? Beim Repair Café und Vereinsprojekten werden die Mitwirkenden kostenlos versorgt.
 - Kontostand ~2.300 € / Barkasse ~116 €
 
 
