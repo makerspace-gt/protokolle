@@ -3,7 +3,7 @@
 Liebe Mitglieder und Interessierte,
 
 der Vorstand läd gemäß § 8 Pkt. 2 zur jährlichen, ordentlichen Mitgliederversammlung am
-### Sonntag den 25. Februar 2023, 11:00 Uhr
+### Samstag den 25. Februar 2023, 11:00 Uhr
 ein. Die Mitgliederversammlung findet per Videokonferenz unter **https://public.senfcall.de/makerspace-gt** statt.  
 **Es ist nicht ohne weiteres möglich geheime Wahlen durchzuführen. Bisher ist es noch nie erforderlich gewesen. Wenn ihr geheim abstimmen möchtet schreibt eine Mail an vorstand@makerspace-gt.de, dann richten wir etwas ein.**
 
@@ -14,8 +14,8 @@ Auf der Tagesordnung stehen folgende Themen:
 	- Vorstellung der Funktionen von [Senfcall aka. BBB aka. BigBlueButton](https://www.senfcall.de/)
 	- Vorstellung von [Mentimeter](https://www.mentimeter.com/)
 2. Formalien
-	1. Wahl eines Versammlungsleiterin (????)
-	2. Wahl eine Protokollführerin (????)
+	1. Wahl einer Versammlungsleiterin (????)
+	2. Wahl einer Protokollführerin (????)
 	3. [Feststellung der ordentlichen Einberufung und Beschlussfähigkeit der Mitgliederversammlung nach § 8](https://github.com/makerspace-gt/satzung-dokumente/blob/main/Satzung.md#-8-mitgliederversammlung)
 		> - Die ordentliche Mitgliederversammlung wird jedes Jahr vom Vorstand einberufen.
 		> - Die Einladung zur Mitgliederversammlung ist den Mitgliedern in Textform unter Angabe von Ort, Zeit und Tagesordnung mindestens vier Wochen vorher, bei außerordentlichen Mitgliederversammlungen mindestens zwei Wochen vorher zu übersenden.
@@ -65,7 +65,7 @@ Auf der Tagesordnung stehen folgende Themen:
 	1. Entlastung des Vorstands
 	2. Entlastung der Schatzmeisterin
 8. Wahl des neuen Vorstands
-    - Uta und Philip möchte gerne aus dem Vorstand austreten - wenn Du Lust hast mehr im Verein zu gestalten, ist das jetzt der perfekte Zeitpunkt!
+    - Uta und Philip möchten gerne aus dem Vorstand austreten - wenn Du Lust hast mehr im Verein zu gestalten, ist das jetzt der perfekte Zeitpunkt!
 9.  Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
