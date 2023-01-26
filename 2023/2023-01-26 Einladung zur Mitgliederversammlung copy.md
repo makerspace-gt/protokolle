@@ -24,24 +24,24 @@ Auf der Tagesordnung stehen folgende Themen:
 	1. [Meilensteine des Makerspace Gütersloh im Jahr 2022](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/5) (???)
 	1. Aus Ausblick
 			1. Laptop Spende
-			1. Wiedereröffnung des Repair Café
-			1. Förderantrag Holodeck
-			1. Projekt Infrastruktur
-			1. Website Relaunch
-			1. Workshops
+			2. Wiedereröffnung des Repair Café
+			3. Förderantrag Holodeck
+			4. Projekt Infrastruktur
+			5. Website Relaunch
+			6. Workshops
 		1. Aus Abstimmung
 			1. 1. Platz: PutzParty mit Pizza
-			1. 1. Platz: Treffen
-			1. 2. Platz: Weiterbildung Repair Café
-			1. 3. Platz: Exkursionen
-			1. 4. Platz: Kleine Projekte
-    4. Neue Anschaffungen (Leon)
+			2. 1. Platz: Treffen
+			3. 2. Platz: Weiterbildung Repair Café
+			4. 3. Platz: Exkursionen
+			5. 4. Platz: Kleine Projekte
+    2. Neue Anschaffungen (Leon)
 		1. Laminiergerät
-		1. Surroundanlage
-		1. Space- und CAD-Mäuse von 3Dconnexion
-		1. Geschirr
+		2. Surroundanlage
+		3. Space- und CAD-Mäuse von 3Dconnexion
+		4. Geschirr
 
-	5. Ausblicke für das Jahr 2023 (???)
+	3. Ausblicke für das Jahr 2023 (???)
         1. Übergeordnetes Ziel: Community vergrößern
             - Ansprechen von Menschen, die zum Beispiel im Modellbau/Schule (AGs)/Kunstbereich usw. aktiv sind
             - Sichtbare Projekte
@@ -61,12 +61,12 @@ Auf der Tagesordnung stehen folgende Themen:
 6. Kassenprüfung
 	1. Wahl einer Kassenprüferin (???)
 	2. Bericht der Kassenprüferin
-1. Entlastungen
+7. Entlastungen
 	1. Entlastung des Vorstands
-	1. Entlastung der Schatzmeisterin
-1. Wahl des neuen Vorstands
+	2. Entlastung der Schatzmeisterin
+8. Wahl des neuen Vorstands
     - Uta und Philip möchte gerne aus dem Vorstand austreten - wenn Du Lust hast mehr im Verein zu gestalten, ist das jetzt der perfekte Zeitpunkt!
-1. Sonstiges
+9.  Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
 
