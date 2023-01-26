@@ -308,8 +308,8 @@ Michael Prange (Protokollführer)
 
 #### Anhang zu TOP11 - Mitgliedsbeiträge und Maschinennutzungskosten
 2. **Maschinennutzungskosten**  
-   ![Maschinennutungskosten](images/2020-02-29 Mitgliederversammlung - Preise.png)
-
+   ![Maschinennutungskosten](https://raw.githubusercontent.com/makerspace-gt/protokolle/main/2020/images/2020-02-29%20Mitgliederversammlung%20-%20Preise.png)
+   
 #### Anhang zu TOP12 - Sonstiges
 1. **Vereinsprojekt**
    - [Parking Day](https://de.wikipedia.org/wiki/Parking_Day)
