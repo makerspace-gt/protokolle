@@ -21,7 +21,7 @@ Auf der Tagesordnung stehen folgende Themen:
         > - Die Einladung zur Mitgliederversammlung ist den Mitgliedern in Textform unter Angabe von Ort, Zeit und Tagesordnung mindestens vier Wochen vorher, bei außerordentlichen Mitgliederversammlungen mindestens zwei Wochen vorher zu übersenden.
         > - Die Mitgliederversammlung ist beschlußfähig, wenn sie ordnungsgemäß einberufen wurde und mindestens ein Siebtel der stimmberechtigten Mitglieder anwesend ist. Ist weniger als ein Drittel der stimmberechtigten Mitglieder anwesend, kann die Mitgliederversammlung erneut einberufen werden; sie ist dann ohne Rücksicht auf die Zahl der anwesenden Mitglieder beschlußfähig. Auf diesen Umstand wird in der Einladung hingewiesen.
 3. Bericht des Vorstands
-    1. [Meilensteine des Makerspace Gütersloh im Jahr 2022](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/5) (???)
+    1. [Meilensteine des Makerspace Gütersloh im Jahr 2022](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/5) (Philip)
     2. Aus Ausblick
             1. Laptop Spende
             2. Wiedereröffnung des Repair Café
@@ -41,7 +41,17 @@ Auf der Tagesordnung stehen folgende Themen:
         3. Space- und CAD-Mäuse von 3Dconnexion
         4. Geschirr
 
-    4. Ausblicke für das Jahr 2023 (???)
+4. Bericht der Schatzmeisterin (Uta+Martin)
+5. Kassenprüfung
+    1. Wahl einer Kassenprüferin (Martin+Uta)
+    2. Bericht der Kassenprüferin
+6. Entlastungen
+    1. Entlastung des Vorstands
+    2. Entlastung der Schatzmeisterin
+7. Wahl des neuen Vorstands
+    - Leon, Uta und Philip möchten gerne aus dem Vorstand austreten - wenn Du Lust hast mehr im Verein zu gestalten, ist das jetzt der perfekte Zeitpunkt!
+8.  Ausblicke für das Jahr 2023 (???)
+   1.  Vorstellung
         1. Übergeordnetes Ziel: Community vergrößern
             - Ansprechen von Menschen, die zum Beispiel im Modellbau/Schule (AGs)/Kunstbereich usw. aktiv sind
             - Sichtbare Projekte
@@ -56,17 +66,8 @@ Auf der Tagesordnung stehen folgende Themen:
             * [Repair Café - Engagement NRW](https://forum.makerspace-gt.de/t/repair-cafe-engagement-nrw/702) (1.000 €)
             * Heimatscheck (2.000 €)
         5. Geburtstag des Makerspace
-4. Abstimmung über Ziele für das Jahr 2023
-5. Bericht der Schatzmeisterin (???)
-6. Kassenprüfung
-    1. Wahl einer Kassenprüferin (???)
-    2. Bericht der Kassenprüferin
-7. Entlastungen
-    1. Entlastung des Vorstands
-    2. Entlastung der Schatzmeisterin
-8. Wahl des neuen Vorstands
-    - Uta und Philip möchten gerne aus dem Vorstand austreten - wenn Du Lust hast mehr im Verein zu gestalten, ist das jetzt der perfekte Zeitpunkt!
-9.  Sonstiges
+    2.  Abstimmung über Ziele für das Jahr 2023
+9.   Sonstiges
 
 Anträge auf Ergänzungen der Tagesordnung müssen gemäß § 8 Pkt. 5 bis eine Woche vor der Versammlung schriftlich an alle Mitglieder geschickt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
 
