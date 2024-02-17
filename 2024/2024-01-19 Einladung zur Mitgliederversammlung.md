@@ -54,7 +54,7 @@ Auf der Tagesordnung stehen folgende Themen:
    1. Entlastung des Vorstands
    2. Entlastung des Schatzmeisters
 7. Ausblicke für das Jahr 2024
-   - [Code of Conduct verabschieden](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843) (Sarah & Jens)  
+   - [Code of Conduct verabschieden](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843) (Sarah & JP)  
      damit sich alle bei uns wohlfühlen und Missverständnisse gar nicht erst aufkommen
    - "no space left on device" (Michael P.)  
      mehr Fläche in der Weberei nutzen oder einen weiteren Raum anmieten
@@ -64,7 +64,7 @@ Auf der Tagesordnung stehen folgende Themen:
      damit wir kein Werkzeug mit zum Repair Café "schleppen" müssen
    - ["βetter infrastructure"](https://forum.makerspace-gt.de/t/next-level/409) (Michael P.)  
      allgemein die Ausstattung des Makerspace verbessern, um den Wohlfühlfaktor zu erhöhen (Beleuchtung, Tische, Regale, ...)
-   - PIZZA-Party (Jens & Sarah)  
+   - PIZZA-Party (JP & Sarah)  
      putzen, inventarisieren, zusammenarbeiten, zugänglich machen, aufräumen und Pizza
    - ["acces granted"](https://forum.makerspace-gt.de/t/fabaccess-maschinenrechtverwaltung/854) (Leon & Michael P.)  
      FabAccess als Zugangssystem für die Freigabe von Maschinen & Türen per App & RFID-Karte einführen
