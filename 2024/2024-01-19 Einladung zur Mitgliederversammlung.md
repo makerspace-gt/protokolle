@@ -78,7 +78,7 @@ Auf der Tagesordnung stehen folgende Themen:
 8. Sonstiges
    - Getränke im Space (René H.)  
      aka Bier ohne "mit ohne"
-9.  Beschließen der Ziele für das Jahr 2024
+9. Beschließen der Ziele für das Jahr 2024
 
 Anträge zur Ergänzung der Tagesordnung müssen gemäß § 8 Abs. 5 der Satzung bis eine Woche vor der Versammlung schriftlich an alle Mitglieder versandt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
 
