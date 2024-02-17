@@ -76,8 +76,8 @@ Auf der Tagesordnung stehen folgende Themen:
    - [Fahrrad Exkursion](https://forum.makerspace-gt.de/c/veranstaltungen/exkursionen/45) (René H.)  
      im Umland mit Besichtigung eines interessanten Ortes
 8. Sonstiges
-   1. Getränke im Space (René H.)  
-      aka Bier ohne "mit ohne"
+   - Getränke im Space (René H.)  
+     aka Bier ohne "mit ohne"
 9.  Beschließen der Ziele für das Jahr 2024
 
 Anträge zur Ergänzung der Tagesordnung müssen gemäß § 8 Abs. 5 der Satzung bis eine Woche vor der Versammlung schriftlich an alle Mitglieder versandt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
