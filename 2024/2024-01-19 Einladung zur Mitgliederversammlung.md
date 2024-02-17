@@ -68,6 +68,7 @@ Auf der Tagesordnung stehen folgende Themen:
      putzen, inventarisieren, zusammenarbeiten, zugänglich machen, aufräumen und Pizza
    - ["acces granted"](https://forum.makerspace-gt.de/t/fabaccess-maschinenrechtverwaltung/854) (Leon & Michael P.)  
      FabAccess als Zugangssystem für die Freigabe von Maschinen & Türen per App & RFID-Karte einführen
+   - Gestaltung der Öffnungszeiten (JP)
    - Beleben des [Wiki](https://wiki.makerspace-gt.de) (Martin)  
      um Wissen zu erhalten, teilen und verbessern
    - ["Print. Shred. Repeat."](https://forum.makerspace-gt.de/t/filament-recycling/858) (Marc & Michael P.)  
