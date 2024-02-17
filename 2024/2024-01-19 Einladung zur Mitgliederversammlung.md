@@ -48,6 +48,8 @@ Auf der Tagesordnung stehen folgende Themen:
 5. Kassenprüfung
    1. Wahl einer Kassenprüferin
    2. Bericht der Kassenprüferin
+   3. Diskussion und Abstimmung Kassenprüfung 2024
+   4. ggf. Wahl Kassenprüferinnen 2024
 6. Entlastungen
    1. Entlastung des Vorstands
    2. Entlastung des Schatzmeisters
