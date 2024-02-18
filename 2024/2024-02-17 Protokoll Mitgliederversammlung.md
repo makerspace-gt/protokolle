@@ -103,25 +103,25 @@ Anschließend begrüßte sie die Anwesenden herzlich, zeigt die [Präsentation z
 
 - Es wurden Sarah und Martin zur Versammlungsleitung Vorgeschlagen. Mit Einverständnis von 13 Personen übernahm Sarah die Versammlungsleitung.
 - Mit Einverständnis übernahm Michael die Protokollführung.
-- Der Martin stellte fest, dass die Versammlung satzungsgemäß einberufen und beschlussfähig ist.
+- Der Martin stellte fest, dass die Versammlung satzungsgemäß einberufen wurde und beschlussfähig ist.
 
 # 3. Bericht des Vorstands
 
 ## 3.1. [Meilensteine des Makerspace Gütersloh im Jahr 2023](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/6)
 
-Tim verwies auf die Dokumentation der Meilensteile des Makerspace Gütersloh im Forum (<https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/6>) und stellte bebildert ausgewählte Meilensteine vor.
+Tim verwies auf die Dokumentation der Meilensteine des Makerspace Gütersloh im Forum (<https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/6>) und stellte bebildert ausgewählte Meilensteine vor.
 
 ## 3.2. Status der IT-Infrastruktur
 
 Michael stelle bebildert vor, welche IT-Infrastruktur genutzt wird und wo sie betrieben wird.
-In der Präsentation wurde BigBlueButton / Senfcall, Google Docs und Jameica mit den Plugins JVerein und Hibiscus vergessen.
+In der Präsentation wurden BigBlueButton / Senfcall, Google Docs und Jameica mit den Plugins JVerein und Hibiscus vergessen.
 
 ## 3.3. [Umsetzung der Beschlüsse der letzten Mitgliederversammlung](https://github.com/makerspace-gt/protokolle/blob/main/2023/2023-02-25%20Mitgliederversammlung.md#ausblicke-f%C3%BCr-das-jahr-2023)
 
 Sarah stelle bebildert vor, ob und wie die Umsetzung der Beschlüsse der letzten Mitgliederversammlung erfolgt ist.
-Die Zahlen in den Klammern geben an, wie viele Personen letztes Jahr für diesen Beschluss gestimmt haben.
+Die Zahlen in Klammern geben an, wie viele Personen im letzten Jahr für diesen Beschluss gestimmt haben.
 
-Kurt stellte das Klimabüro als Kooperationspartner kurz vor. Es gibt 14 Arbeitsgruppen, die sich dort Treffen und im Vergangenen Jahr fanden 273 Veranstaltungen statt.
+Kurt stellte kurz das Klimabüro als Kooperationspartner vor. Es gibt 14 Arbeitsgruppen, die sich dort treffen und im letzten Jahr wurden 273 Veranstaltungen durchgeführt.
 
 # 4. Bericht des Schatzmeisters
 
@@ -133,7 +133,7 @@ Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien
   - Ausgaben Spenden:
     - Buchungskorrektur Bargeld in der Kasse
   - Ausgaben Sonsiges:
-    - Eintragung ins Vereinsregister
+    - Eintragung in das Vereinsregister
     - Pfand Mitgliederkiste
     - Porto
 - Mitglieder zum 31.12.2023: 33
@@ -141,7 +141,7 @@ Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien
 
 In 2024 sollen Fördermitglieder durch das Repair Café geworben werden.
 
-Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigenes Risiko.«
+Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigenes Gefahr.«
 
 # 5. Kassenprüfung
 
@@ -149,24 +149,24 @@ Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigenes Risiko.«
 
 ### Ich will, dass die Kassenprüfung immer von zwei Personen durchgeführt wird
 
-- 6 Stimmmen: Ja
-- 3 Stimmmen: Nein
-- 6 Stimmmen: Enthaltung
+- 6 Stimmen: Ja
+- 3 Stimmen: Nein
+- 6 Stimmen: Enthaltung
 
 Ab 2024 wir die Kassenprüfung immer von zwei Pwesonen durchgeführt.
 
 ### Ich will, dass der bisherige Modus als Rückfallmaßnahme beibehalten wird, falls gewählte Personen ausfallen
 
-- 11 Stimmmen: Ja
-- 0 Stimmmen: Nein
-- 4 Stimmmen: Enthaltung
+- 11 Stimmen: Ja
+- 0 Stimmen: Nein
+- 4 Stimmen: Enthaltung
 
 Der bisherige Modus bleibt als Rückfallmaßnahme erhalten.
 
 ### Ich will, dass bei der Kassenprüfung in Zukunft... (Mehrfachwahl möglich)
 
 - 4 Stimmen: a) alles bleibt, wie es ist.
-- 4 Stimmen: b) wir einen Pool aus mindestens 3 Personen für das nächste Jahr wählen (von denen mindesten 2 die Kassenprüfung durchführen müssen).
+- 4 Stimmen: b) wir einen Pool aus mindestens 3 Personen für das nächste Jahr wählen (von denen mindestens 2 die Kassenprüfung durchführen müssen).
 - 11 Stimmen: c) wir jedes Jahr 1 Person für 2 Jahre wählen, sodass immer 2 Personen für die Kassenprüfung amtieren und mindestens eine davon die Kassenprüfung nicht zum ersten Mal durchführt. Eine direkte Wiederwahl ist möglich.
 - 1 Stimme: d) Enthaltung
 
@@ -176,28 +176,28 @@ Ab 2024 wird jedes jedes Jahr 1 Person für 2 Jahre wählen, sodass immer 2 Pers
 
 Ralf wurde für die Kassenprüfung vom Vorstand vorgeschlagen und stellte sich kurz vor.
 
-- 14 Stimmmen: Ja
-- 0 Stimmmen: Nein
-- 1 Stimmme: Enthaltung
+- 14 Stimmen: Ja
+- 0 Stimmen: Nein
+- 1 Stimme: Enthaltung
 
 Mit Einverständnis übernahm Ralf die Kassenprüfung.
 Die Kassenprüfung erfolgte bereits vor der Mitgliederversammlung.
 
 ## 5.2. Bericht des Kassenprüfers
 
-Ralf stellte den [Prüfungsbericht](2024-02-17%20Kassenpr%C3%BCfbericht%20Makerspace%20G%C3%BCtersloh%20e.V.%20f%C3%BCr%20das%20Jahr%202023.pdf) in mündlicher Form vor.
-Die Buchführung wird in einer Tabellenkalkulation erstellt, die Belege sind alle digital vorhanden.
-Alle Ein- und Ausgaben sind gut nachvollziehbar, eine Prüfung war umfassend möglich.
-Die Kassenprüfung soll in Zukunft etwa 14 Tage vor der Mitgliederversammlung stattfinden.
+Ralf stellte den [Prüfungsbericht](2024-02-17%20Kassenpr%C3%BCfbericht%20Makerspace%20G%C3%BCtersloh%20e.V.%20f%C3%BCr%20das%20Jahr%202023.pdf) mündlich vor.
+Die Buchführung erfolgt in einer Tabellenkalkulation, die Belege liegen alle digital vor.
+Alle Einnahmen und Ausgaben sind gut nachvollziehbar, eine Prüfung war umfassend möglich.
+Die Kassenprüfung soll zukünftig ca. 14 Tage vor der Mitgliederversammlung stattfinden.
 Ralf hat Empfohlen, den Vorstand und den Schatzmeister zu entlasten.
 
 ## 5.4. Wahl Kassenprüferinnen 2024
 
 ### Ich bestätige, dass Ralf Ehlers auch die Kassenprüfung für das Geschäftsjahr 2024 durchführt
 
-- 15 Stimmmen: Ja
-- 0 Stimmmen: Nein
-- 0 Stimmmen: Enthaltung
+- 15 Stimmen: Ja
+- 0 Stimmen: Nein
+- 0 Stimmen: Enthaltung
 
 Mit Einverständnis übernimmt Ralf die Kassenprüfung 2024.
 
@@ -217,17 +217,17 @@ Mit Einverständnis übernimmt Katrin die Kassenprüfung 2024.
 
 ## 6.1. Entlastung des Vorstands
 
-- 10 Stimmmen: Ja
-- 0 Stimmmen: Nein
-- 5 Stimmmen: Enthaltung
+- 10 Stimmen: Ja
+- 0 Stimmen: Nein
+- 5 Stimmen: Enthaltung
 
 Der Vorstand wurde für das Geschäftsjahr 2023 entlastet.
 
 ## 6.2. Entlastung des Schatzmeisters
 
-- 13 Stimmmen: Ja
-- 0 Stimmmen: Nein
-- 2 Stimmmen: Enthaltung
+- 13 Stimmen: Ja
+- 0 Stimmen: Nein
+- 2 Stimmen: Enthaltung
 
 Der Schatzmeister wurde für das Geschäftsjahr 2023 entlastet.
 
@@ -300,16 +300,16 @@ aka Bier ohne "mit ohne"
 
 ## Separaten Lagerraum anmieten
 
-Von JP wurde angeregt einen separaten Lagerraum anzumieten, sodass mehr Platz frei zum Werken ist.
+Von JP wurde angeregt, einen separaten Lagerraum anzumieten, sodass mehr Platz frei zum Werken ist.
 
 ## Vierteljährliche Rückmeldung der Zielerreichung beim Stammtisch
 
-Von Silke wurde gewünscht, dass wie vierteljährlich eine Rückmeldung zur Zielerreichung beim Stammtisch geben.
+Von Silke wurde gewünscht, dass wir vierteljährlich eine Rückmeldung zur Zielerreichung beim Stammtisch geben.
 Im Mai, August, November.
 
 ## Öffentlichkeitsarbeit fokussieren
 
-Von Felix wurde angeregt, dass wir die Gewinnung von (Förder-)Mitgliedern im Rahmen der Öffentlichkeitsarbeit fokussieren. Etwa beim Repair Café, Bericht in Schulen, VHS, Unis, Klimawoche, Parkingday, regionale Unternehme, Mitwirk-O-Mat, ...
+Von Felix wurde angeregt, dass wir uns im Rahmen der Öffentlichkeitsarbeit auf die Gewinnung von (Förder-)Mitgliedern fokussieren. Zum Beispiel beim Repair Café, Bericht in Schulen, VHS, Unis, Klimawoche, Parkingday, regionale Unternehmen, Mitwirk-O-Mat, ...
 
 # 9. Beschließen der Ziele für das Jahr 2024
 
