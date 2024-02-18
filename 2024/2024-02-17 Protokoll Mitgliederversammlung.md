@@ -153,7 +153,7 @@ Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigenes Gefahr.«
 - 3 Stimmen: Nein
 - 6 Stimmen: Enthaltung
 
-Ab 2024 wir die Kassenprüfung immer von zwei Pwesonen durchgeführt.
+Ab 2024 wir die Kassenprüfung immer von zwei Personen durchgeführt.
 
 ### Ich will, dass der bisherige Modus als Rückfallmaßnahme beibehalten wird, falls gewählte Personen ausfallen
 
