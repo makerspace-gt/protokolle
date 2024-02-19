@@ -127,21 +127,24 @@ Kurt stellte kurz das Klimabüro als Kooperationspartner vor. Es gibt 14 Arbeits
 
 Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien, Jahresübersicht und Monatsübersicht vor.
 
-- Umsatz im Kalenderjahr 2023: 8.378,15 €
+- Einnahmen im Kalenderjahr 2023: 8.378,15 €
+- Ausgaben im Kalenderjahr 2023: 7.759,58 €
+- Saldo im Kalenderjahr 2023: 618,57 €
+- Anfangsbestand am 01.01.2023: 1.814,54 €
 - Endbestand zum 31.12.2023: 2.690,42 €
   - davon Rücklagen: 1.000 €
-  - Ausgaben Spenden:
-    - Buchungskorrektur Bargeld in der Kasse
-  - Ausgaben Sonsiges:
-    - Eintragung in das Vereinsregister
-    - Pfand Mitgliederkiste
-    - Porto
+- Ausgaben Spenden:
+  - Buchungskorrektur Bargeld in der Kasse
+- Ausgaben Sonsiges:
+  - Eintragung in das Vereinsregister
+  - Pfand Mitgliederkiste
+  - Porto
 - Mitglieder zum 31.12.2023: 33
-  - Mitglieder ab dem 01.04.2023: 29
+  - Mitglieder ab dem 01.04.2024: 29
 
 In 2024 sollen Fördermitglieder durch das Repair Café geworben werden.
 
-Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigenes Gefahr.«
+Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigene Gefahr.«
 
 # 5. Kassenprüfung
 
