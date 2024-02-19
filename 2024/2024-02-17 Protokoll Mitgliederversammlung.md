@@ -6,20 +6,20 @@ zur ordentlichen Mitgliederversammlung des **Makerspace&nbsp;Gütersloh&nbsp;e.V
 
 ### Anwesende Mitglieder
 
-Felix Kupferschmidt ,
-Jens Peter "JP" Kubsch ,
-Katrin Lumpe ,
-Kurt Gramlich (bis 14:14 Uhr) ,
-Marc Neuhaus (bis 14:31 Uhr) ,
-Martin Teuber ,
-Michael Prange ,
-Philip Markus ,
-Ralf Ehlers ,
-Reinhard Peitz ,
-René Plitzko (Remote) ,
-Sarah Franke ,
-Silke Aps (Remote) ,
-Simone Peitz ,
+Felix Kupferschmidt,
+Jens-Peter "JP" Kubsch,
+Katrin Lumpe,
+Kurt Gramlich (bis 14:14 Uhr),
+Marc Neuhaus (bis 14:31 Uhr),
+Martin Teuber,
+Michael Prange,
+Philip Markus,
+Ralf Ehlers,
+Reinhard Peitz,
+René Plitzko (Remote),
+Sarah Franke,
+Silke Aps (Remote),
+Simone Peitz,
 Tim Lakämper
 
 ### Gäste
@@ -28,7 +28,7 @@ Cord Behrmann
 
 ---
 
-# 1. Begrüßung durch den Vorstand
+## 1. Begrüßung durch den Vorstand
 
 Sarah eröffnete die Versammlung.
 Die Remote Teilnahme musste auf <https://public.senfcall.de/makerspace-gtMV> geändert werden.
@@ -99,31 +99,31 @@ Anschließend begrüßte sie die Anwesenden herzlich, zeigt die [Präsentation z
      aka Bier ohne "mit ohne"
 9. Beschließen der Ziele für das Jahr 2024
 
-# 2. Formalitäten
+## 2. Formalitäten
 
 - Es wurden Sarah und Martin zur Versammlungsleitung Vorgeschlagen. Mit Einverständnis von 13 Personen übernahm Sarah die Versammlungsleitung.
 - Mit Einverständnis übernahm Michael die Protokollführung.
 - Der Martin stellte fest, dass die Versammlung satzungsgemäß einberufen wurde und beschlussfähig ist.
 
-# 3. Bericht des Vorstands
+## 3. Bericht des Vorstands
 
-## 3.1. [Meilensteine des Makerspace Gütersloh im Jahr 2023](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/6)
+### 3.1. [Meilensteine des Makerspace Gütersloh im Jahr 2023](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/6)
 
 Tim verwies auf die Dokumentation der Meilensteine des Makerspace Gütersloh im Forum (<https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/6>) und stellte bebildert ausgewählte Meilensteine vor.
 
-## 3.2. Status der IT-Infrastruktur
+### 3.2. Status der IT-Infrastruktur
 
-Michael stelle bebildert vor, welche IT-Infrastruktur genutzt wird und wo sie betrieben wird.
+Michael stellte bebildert vor, welche IT-Infrastruktur genutzt wird und wo sie betrieben wird.
 In der Präsentation wurden BigBlueButton / Senfcall, Google Docs und Jameica mit den Plugins JVerein und Hibiscus vergessen.
 
-## 3.3. [Umsetzung der Beschlüsse der letzten Mitgliederversammlung](https://github.com/makerspace-gt/protokolle/blob/main/2023/2023-02-25%20Mitgliederversammlung.md#ausblicke-f%C3%BCr-das-jahr-2023)
+### 3.3. [Umsetzung der Beschlüsse der letzten Mitgliederversammlung](https://github.com/makerspace-gt/protokolle/blob/main/2023/2023-02-25%20Mitgliederversammlung.md#ausblicke-f%C3%BCr-das-jahr-2023)
 
-Sarah stelle bebildert vor, ob und wie die Umsetzung der Beschlüsse der letzten Mitgliederversammlung erfolgt ist.
+Sarah stellte bebildert vor, ob und wie die Umsetzung der Beschlüsse der letzten Mitgliederversammlung erfolgt ist.
 Die Zahlen in Klammern geben an, wie viele Personen im letzten Jahr für diesen Beschluss gestimmt haben.
 
 Kurt stellte kurz das Klimabüro als Kooperationspartner vor. Es gibt 14 Arbeitsgruppen, die sich dort treffen und im letzten Jahr wurden 273 Veranstaltungen durchgeführt.
 
-# 4. Bericht des Schatzmeisters
+## 4. Bericht des Schatzmeisters
 
 Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien, Jahresübersicht und Monatsübersicht vor.
 
@@ -134,23 +134,23 @@ Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien
 - Endbestand zum 31.12.2023: 2.690,42 €
   - davon Rücklagen: 1.000 €
 - Ausgaben Spenden:
-  - Buchungskorrektur Bargeld in der Kasse
+  - Entnahmen von Wechselgeld für die Spendendose nach den Kassenzählungen
 - Ausgaben Sonsiges:
   - Eintragung in das Vereinsregister
-  - Pfand Mitgliederkiste
+  - Pfandrückzahlung Mitgliederkiste
   - Porto
-- Mitglieder zum 31.12.2023: 33
+- Mitglieder zum 31.12.2023: 32
   - Mitglieder ab dem 01.04.2024: 29
 
 In 2024 sollen Fördermitglieder durch das Repair Café geworben werden.
 
-Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigene Gefahr.«
+Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigene Gefahr.« In 2024 sollen Angebote für eine Unfallversicherung eingeholt werden.
 
-# 5. Kassenprüfung
+## 5. Kassenprüfung
 
-## 5.3. Diskussion und Abstimmung Kassenprüfung 2024
+### 5.3. Diskussion und Abstimmung Kassenprüfung 2024
 
-### Ich will, dass die Kassenprüfung immer von zwei Personen durchgeführt wird
+#### Ich will, dass die Kassenprüfung immer von zwei Personen durchgeführt wird
 
 - 6 Stimmen: Ja
 - 3 Stimmen: Nein
@@ -158,7 +158,7 @@ Wir haben (noch) keine Unfallversicherung: »Arbeiten auf eigene Gefahr.«
 
 Ab 2024 wir die Kassenprüfung immer von zwei Personen durchgeführt.
 
-### Ich will, dass der bisherige Modus als Rückfallmaßnahme beibehalten wird, falls gewählte Personen ausfallen
+#### Ich will, dass der bisherige Modus als Rückfallmaßnahme beibehalten wird, falls gewählte Personen ausfallen
 
 - 11 Stimmen: Ja
 - 0 Stimmen: Nein
@@ -166,16 +166,16 @@ Ab 2024 wir die Kassenprüfung immer von zwei Personen durchgeführt.
 
 Der bisherige Modus bleibt als Rückfallmaßnahme erhalten.
 
-### Ich will, dass bei der Kassenprüfung in Zukunft... (Mehrfachwahl möglich)
+#### Ich will, dass bei der Kassenprüfung in Zukunft... (Mehrfachwahl möglich)
 
 - 4 Stimmen: a) alles bleibt, wie es ist.
 - 4 Stimmen: b) wir einen Pool aus mindestens 3 Personen für das nächste Jahr wählen (von denen mindestens 2 die Kassenprüfung durchführen müssen).
-- 11 Stimmen: c) wir jedes Jahr 1 Person für 2 Jahre wählen, sodass immer 2 Personen für die Kassenprüfung amtieren und mindestens eine davon die Kassenprüfung nicht zum ersten Mal durchführt. Eine direkte Wiederwahl ist möglich.
+- 11 Stimmen: c) wir jedes Jahr 1 Person für 2 Jahre wählen, sodass immer 2 Kassenprüfer amtieren und mindestens einer davon die Kassenprüfung nicht zum ersten Mal durchführt. Eine direkte Wiederwahl ist möglich.
 - 1 Stimme: d) Enthaltung
 
-Ab 2024 wird jedes jedes Jahr 1 Person für 2 Jahre wählen, sodass immer 2 Personen für die Kassenprüfung amtieren und mindestens eine davon die Kassenprüfung nicht zum ersten Mal durchführt. Eine direkte Wiederwahl ist möglich.
+Ab 2024 wird jedes Jahr 1 Person als Kassenprüfer für 2 Jahre gewählt, sodass immer 2 Kassenprüfer amtieren und mindestens einer davon die Kassenprüfung nicht zum ersten Mal durchführt. Eine direkte Wiederwahl ist möglich.
 
-## 5.1. Wahl einer Kassenprüferin
+### 5.1. Wahl einer Kassenprüferin
 
 Ralf wurde für die Kassenprüfung vom Vorstand vorgeschlagen und stellte sich kurz vor.
 
@@ -186,7 +186,7 @@ Ralf wurde für die Kassenprüfung vom Vorstand vorgeschlagen und stellte sich k
 Mit Einverständnis übernahm Ralf die Kassenprüfung.
 Die Kassenprüfung erfolgte bereits vor der Mitgliederversammlung.
 
-## 5.2. Bericht des Kassenprüfers
+### 5.2. Bericht des Kassenprüfers
 
 Ralf stellte den [Prüfungsbericht](2024-02-17%20Kassenpr%C3%BCfbericht%20Makerspace%20G%C3%BCtersloh%20e.V.%20f%C3%BCr%20das%20Jahr%202023.pdf) mündlich vor.
 Die Buchführung erfolgt in einer Tabellenkalkulation, die Belege liegen alle digital vor.
@@ -194,9 +194,9 @@ Alle Einnahmen und Ausgaben sind gut nachvollziehbar, eine Prüfung war umfassen
 Die Kassenprüfung soll zukünftig ca. 14 Tage vor der Mitgliederversammlung stattfinden.
 Ralf hat Empfohlen, den Vorstand und den Schatzmeister zu entlasten.
 
-## 5.4. Wahl Kassenprüferinnen 2024
+### 5.4. Wahl Kassenprüferinnen 2024
 
-### Ich bestätige, dass Ralf Ehlers auch die Kassenprüfung für das Geschäftsjahr 2024 durchführt
+#### Ich bestätige, dass Ralf Ehlers auch die Kassenprüfung für das Geschäftsjahr 2024 durchführt
 
 - 15 Stimmen: Ja
 - 0 Stimmen: Nein
@@ -204,9 +204,9 @@ Ralf hat Empfohlen, den Vorstand und den Schatzmeister zu entlasten.
 
 Mit Einverständnis übernimmt Ralf die Kassenprüfung 2024.
 
-### Wahl Kassenprüferinnen 2024 (Einfachwahl)
+#### Wahl KassenprüferInnen 2024 für 2 Jahre (Einfachwahl)
 
-Als Kassenprüferinnen 2024 wurden Katrin, Silke, René P. und René H. vorgeschlagen, die sich kurz vorstellten.
+Als KassenprüferInnen 2024 wurden Katrin, Silke, René P. und René H. vorgeschlagen, die sich kurz vorstellten.
 
 - 10 Stimmen: Katrin
 - 3 Stimmen: Silke
@@ -214,11 +214,11 @@ Als Kassenprüferinnen 2024 wurden Katrin, Silke, René P. und René H. vorgesch
 - 0 Stimmen: René H.
 - 1 Stimme: Enthaltung
 
-Mit Einverständnis übernimmt Katrin die Kassenprüfung 2024.
+Mit Einverständnis übernimmt Katrin die Kassenprüfung 2024 und 2025.
 
-# 6. Entlastungen
+## 6. Entlastungen
 
-## 6.1. Entlastung des Vorstands
+### 6.1. Entlastung des Vorstands
 
 - 10 Stimmen: Ja
 - 0 Stimmen: Nein
@@ -226,7 +226,7 @@ Mit Einverständnis übernimmt Katrin die Kassenprüfung 2024.
 
 Der Vorstand wurde für das Geschäftsjahr 2023 entlastet.
 
-## 6.2. Entlastung des Schatzmeisters
+### 6.2. Entlastung des Schatzmeisters
 
 - 13 Stimmen: Ja
 - 0 Stimmen: Nein
@@ -234,41 +234,42 @@ Der Vorstand wurde für das Geschäftsjahr 2023 entlastet.
 
 Der Schatzmeister wurde für das Geschäftsjahr 2023 entlastet.
 
-# 7. Ausblicke für das Jahr 2024
+## 7. Ausblicke für das Jahr 2024
 
 Die verschiedenen Leute stellten die Ausblicke bebildert vor.
 
-## [Code of Conduct verabschieden](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843) (Sarah & JP)
+### [Code of Conduct verabschieden](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843) (Sarah & JP)
 
 damit sich alle bei uns wohlfühlen und Missverständnisse gar nicht erst aufkommen
 
-## "no space left on device" (Michael P.)
+### "no space left on device" (Michael P.)
 
 mehr Fläche in der Weberei nutzen oder einen weiteren Raum anmieten
 
-## Internes Repair Café & Repair Workshop (Tim)
+### Internes Repair Café & Repair Workshop (Tim)
 
 um eigene Geräte zu reparieren, dabei nicht alleine zu sein und voneinander zu lernen
 
-## [(Reparatur-)Werkzeuge für die Bibliothek der Dinge](https://www.stadtbibliothek-guetersloh.de/bibliothek-der-dinge/) (Michael P.)
+### [(Reparatur-)Werkzeuge für die Bibliothek der Dinge](https://www.stadtbibliothek-guetersloh.de/bibliothek-der-dinge/) (Michael P.)
 
 damit wir kein Werkzeug mit zum Repair Café "schleppen" müssen
 
-## ["βetter infrastructure"](https://forum.makerspace-gt.de/t/next-level/409) (Michael P.)
+### ["βetter infrastructure"](https://forum.makerspace-gt.de/t/next-level/409) (Michael P.)
 
-allgemein die Ausstattung des Makerspace verbessern, um den Wohlfühlfaktor zu erhöhen (Beleuchtung, Tische, Regale, ...)
+verbesserung der Ausstattung des Makerspace im Allgemeinen, um den Wohlfühlfaktor zu erhöhen (Beleuchtung, Tische, Regale, ...)
 
-## PIZZA-Party (JP & Sarah)
+### PIZZA-Party (JP & Sarah)
 
 putzen, inventarisieren, zusammenarbeiten, zugänglich machen, aufräumen und Pizza
 
-## ["acces granted"](https://forum.makerspace-gt.de/t/fabaccess-maschinenrechtverwaltung/854) (Leon & Michael P.)
+### ["acces granted"](https://forum.makerspace-gt.de/t/fabaccess-maschinenrechtverwaltung/854) (Leon & Michael P.)
 
-FabAccess als Zugangssystem für die Freigabe von Maschinen & Türen per App & RFID-Karte einführen
+einführen von FabAccess als Zugangssystem für die Freigabe von Maschinen & Türen per App & RFID-Karte
 
-## Gestaltung der Öffnungszeiten (JP)
+### Gestaltung der Öffnungszeiten (JP)
 
 Schlüssel haben aktuell:
+
 - Cihan
 - Jens
 - Martin
@@ -277,9 +278,9 @@ Schlüssel haben aktuell:
 - Spacy
 - Tim
 
-## Beleben des [Wiki](https://wiki.makerspace-gt.de) (Martin)
+### Beleben des [Wiki](https://wiki.makerspace-gt.de) (Martin)
 
-um Wissen zu erhalten, teilen und verbessern
+um Wissen zu bewahren, zu teilen und zu erweitern
 
 ---
 
@@ -287,36 +288,36 @@ um Wissen zu erhalten, teilen und verbessern
 
 ---
 
-## ["Print. Shred. Repeat."](https://forum.makerspace-gt.de/t/filament-recycling/858) (Marc & Michael P.)
+### ["Print. Shred. Repeat."](https://forum.makerspace-gt.de/t/filament-recycling/858) (Marc & Michael P.)
 
-(Fehl-)Drucke, Stützmaterial oder andere Kunstoffgegenstände zu neuem Filament verarbeiten
+(Fehl-)Drucke, Stützmaterial oder andere Kunstoffgegenstände zu neuem Filament recyclen
 
-## [Fahrrad Exkursion](https://forum.makerspace-gt.de/c/veranstaltungen/exkursionen/45) (René H.)
+### [Fahrrad Exkursion](https://forum.makerspace-gt.de/c/veranstaltungen/exkursionen/45) (René H.)
 
-im Umland mit Besichtigung eines interessanten Ortes
+mit Besichtigung eines interessanten Ortes im Umland
 
-# 8. Sonstiges
+## 8. Sonstiges
 
-## Getränke im Space (René H.)  
+### Getränke im Space (René H.)  
 
-aka Bier ohne "mit ohne"
+aka Bier mit Alkohol
 
-## Separaten Lagerraum anmieten
+### Separaten Lagerraum anmieten (JP)
 
-Von JP wurde angeregt, einen separaten Lagerraum anzumieten, sodass mehr Platz frei zum Werken ist.
+Anmietung eines separaten Lagerraums, sodass mehr Platz frei ist zum Werken und mehr Ordnung herrscht.
 
-## Vierteljährliche Rückmeldung der Zielerreichung beim Stammtisch
+### Vierteljährliche Rückmeldung der Zielerreichung beim Stammtisch
 
 Von Silke wurde gewünscht, dass wir vierteljährlich eine Rückmeldung zur Zielerreichung beim Stammtisch geben.
 Im Mai, August, November.
 
-## Öffentlichkeitsarbeit fokussieren
+### Öffentlichkeitsarbeit fokussieren
 
 Von Felix wurde angeregt, dass wir uns im Rahmen der Öffentlichkeitsarbeit auf die Gewinnung von (Förder-)Mitgliedern fokussieren. Zum Beispiel beim Repair Café, Bericht in Schulen, VHS, Unis, Klimawoche, Parkingday, regionale Unternehmen, Mitwirk-O-Mat, ...
 
-# 9. Beschließen der Ziele für das Jahr 2024
+## 9. Beschließen der Ziele für das Jahr 2024
 
-## [Code of Conduct verabschieden](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843)
+### [Code of Conduct verabschieden](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843)
 
 - 7 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
 - 3 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
@@ -329,90 +330,90 @@ Von Felix wurde angeregt, dass wir uns im Rahmen der Öffentlichkeitsarbeit auf 
 
 ---
 
-## "no space left on device"
+### "no space left on device"
 
 - 9 Stimmen: a) Ja, aber nur mit einem Förderantrag.
 - 2 Stimmen: b) Ja, auch nur aus Eigenmitteln.
 - 1 Stimme: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 1 Stimme: d) Enthaltung
 
-## Internes Repair Café & Repair Workshop
+### Internes Repair Café & Repair Workshop
 
 - 9 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
 - 4 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 0 Stimmen: d) Enthaltung
 
-## [(Reparatur-)Werkzeuge für die Bibliothek der Dinge](https://www.stadtbibliothek-guetersloh.de/bibliothek-der-dinge/)
+### [(Reparatur-)Werkzeuge für die Bibliothek der Dinge](https://www.stadtbibliothek-guetersloh.de/bibliothek-der-dinge/)
 
-- 12 Stimmen: a) Ja, aber nur mit einem Förderantrag.
+- 12 Stimmen: a) Ja, aber nur mit einem Förderantrag. (oder wenn die Bibliothek ansonsten die Kosten übernimmt)
 - 0 Stimmen: b) Ja, auch nur aus Eigenmitteln.
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 1 Stimme: d) Enthaltung
 
-## ["βetter infrastructure"](https://forum.makerspace-gt.de/t/next-level/409)
+### ["βetter infrastructure"](https://forum.makerspace-gt.de/t/next-level/409)
 
 - 1 Stimme: a) Ja, aber nur mit einem Förderantrag.
 - 7 Stimmen: b) Ja, auch nur aus Eigenmitteln.
 - 2 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 3 Stimmen: d) Enthaltung
 
-## PIZZA-Party
+### PIZZA-Party
 
 - 9 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
 - 3 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 1 Stimme: d) Enthaltung
 
-## ["acces granted"](https://forum.makerspace-gt.de/t/fabaccess-maschinenrechtverwaltung/854)
+### ["acces granted"](https://forum.makerspace-gt.de/t/fabaccess-maschinenrechtverwaltung/854)
 
 - 11 Stimmen: a) Ja, aber nur mit einem Förderantrag.
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 2 Stimmen: d) Enthaltung
 
-## Gestaltung der Öffnungszeiten
+### Gestaltung der Öffnungszeiten
 
 - 2 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
 - 5 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 6 Stimmen: d) Enthaltung
 
-## Beleben des [Wiki](https://wiki.makerspace-gt.de)
+### Beleben des [Wiki](https://wiki.makerspace-gt.de)
 
 - 6 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
 - 5 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
 - 1 Stimme: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 1 Stimme: d) Enthaltung
 
-## ["Print. Shred. Repeat."](https://forum.makerspace-gt.de/t/filament-recycling/858)
+### ["Print. Shred. Repeat."](https://forum.makerspace-gt.de/t/filament-recycling/858)
 
 - 8 Stimmen: a) Ja, aber nur mit einem Förderantrag.
 - 0 Stimmen: b) Ja, auch nur aus Eigenmitteln.
 - 2 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 3 Stimmen: d) Enthaltung
 
-## [Fahrrad Exkursion](https://forum.makerspace-gt.de/c/veranstaltungen/exkursionen/45)
+### [Fahrrad Exkursion](https://forum.makerspace-gt.de/c/veranstaltungen/exkursionen/45)
 
 - 2 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
-- 10 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
+- 10 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen. (aka Ich kann nicht mitplanen, nehme aber Teil)
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 1 Stimme: d) Enthaltung
 
-## Getränke im Space
+### Alkoholhaltiges Bier im Space
 
-- 0 Stimmen: a) Ja, mit Organisation durch den Verein.
-- 7 Stimmen: b) Ja, mit privater Organisation.
+- 0 Stimmen: a) Ja, mit Beschaffung durch den Verein.
+- 7 Stimmen: b) Ja, mit privater Beschaffung.
 - 2 Stimmen: c) Nein, konsequent kein Alkohol.
 - 4 Stimmen: d) Enthaltung
 
-## Separaten Lagerraum anmieten
+### Separaten Lagerraum anmieten
 
 - 6 Stimmen: a) Ja, aber nur mit einem Förderantrag.
 - 2 Stimmen: b) Ja, auch nur aus Eigenmitteln.
 - 0 Stimmen: c) Nein, wir sollten uns auf andere Themen fokussieren.
 - 5 Stimmen: d) Enthaltung
 
-## Öffentlichkeitsarbeit fokussieren
+### Öffentlichkeitsarbeit fokussieren
 
 - 8 Stimmen: a) Ja, ich möchte mich auch daran beteiligen.
 - 4 Stimmen: b) Ja, aber ich kann mich nicht daran beteiligen.
@@ -426,10 +427,10 @@ Die Versammlung wurde um
 geschlossen.  
 
 Gütersloh, 17. Februar 2024  
-<br>
-<br>
-<br>
+\
+\
+\
 Sarah Franke (Versammlungsleitung)  
-<br>
-<br>
+\
+\
 Michael Prange (Protokollführung)
