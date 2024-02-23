@@ -422,6 +422,10 @@ Von Felix wurde angeregt, dass wir uns im Rahmen der Öffentlichkeitsarbeit auf 
 
 ---
 
+![Beschluss der Ziele für das Jahr 2024](2023-02-23%20Ziele%202024.png)
+
+---
+
 Die Versammlung wurde um
 15:07 Uhr
 geschlossen.  
