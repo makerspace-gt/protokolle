@@ -1,6 +1,6 @@
 # Protokoll der ordentlichen  Mitgliederversammlung des Makerspace&nbsp;Gütersloh&nbsp;e.V
 
-Es versammelten sich heute, am 22. Februar 2022 um 11:00 Uhr im Klimabüro, Schulstraße 5, 33330 Gütersloh und per Videokonferenz unter **<https://public.senfcall.de/makerspace-gt>**
+Es versammelten sich heute, am 22. Februar 2025 um 11:00 Uhr im Klimabüro, Schulstraße 5, 33330 Gütersloh und per Videokonferenz unter **<https://public.senfcall.de/makerspace-gt>**
 14 Personen
 zur ordentlichen Mitgliederversammlung des **Makerspace&nbsp;Gütersloh&nbsp;e.V.**
 
@@ -102,7 +102,7 @@ Es wurde über das Thema diskutiert.
 Aktuelle Problemstellen sind die Themen Brandschutz, Eingetragene Nutzung, Lage und Mietkosten.
 Alle sind eingeladen sich weiterhin einzubringen.
 Ggf. ist eine Anschubfinanzierung möglich. Matthias Trepper soll zum nächsten Jubiläum einladen werden. Es sollen Firmen als Fördermitglieder geworben werden.
-Es soll bei der Feuerwehr einen Kostenschätzung für eine Nutzungsänderung angefragt werden.
+Es soll bei der Feuerwehr einen Kostenschätzung für eine brandschutzgerechte Nutzungsänderung angefragt werden.
 
 ---
 
@@ -164,7 +164,7 @@ Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien
 
 Katrin stellte den [Prüfungsbericht](2025-02-14%20Protokoll%20Kassenpr%C3%BCfung.pdf) mündlich vor.
 Alle Belege wurden geprüft, ebenso die Getränkekosten und Auslagenanträge.
-Es wird Empfohlen, den Vorstand und zu entlasten.
+Es wird Empfohlen, den Vorstand zu entlasten.
 
 ### 5.2. Wahl einer Kassenprüferin 2025 / 2026
 
