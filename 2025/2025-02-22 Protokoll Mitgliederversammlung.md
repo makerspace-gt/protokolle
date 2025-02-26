@@ -151,6 +151,7 @@ Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach Kategorien
 - Einnahmen im Kalenderjahr 2024: 8.447,24 €
 - Ausgaben im Kalenderjahr 2024: 7.142,03 €
 - Saldo im Kalenderjahr 2024: 1.305,21 €
+- zzgl. Korrekturen aus 2023 (u.a. eine Doppelzahlung): 129,54 €
 - Anfangsbestand am 01.01.2024: 2.690,42 €
 - Endbestand zum 31.12.2024: 4.125,17 €
   - davon Rücklagen: 1.000 €
