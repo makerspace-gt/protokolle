@@ -267,7 +267,7 @@ Es soll abgestimmt werden, ob sich eine Arbeitsgruppe findet, die das Thema stru
 Die Nähbar wird gut angenommen, aber es werden oft eigene Maschinen mitgebracht.
 Als grober Rahmen wurden bei der letzten Nähbar 2.000 € notwendig bis 5.000 € träumerisch geschätzt.
 
-## 10. Beschließen der Ziele für das Jahr 2024
+## 10. Beschließen der Ziele für das Jahr 2025
 
 ### [AG Cyber](https://forum.makerspace-gt.de/t/projekt-team-it-infrastruktur/504  )
 
