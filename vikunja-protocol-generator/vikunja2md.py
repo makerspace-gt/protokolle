@@ -28,10 +28,21 @@ meta = requests.get(
     headers={"Authorization": f"Bearer {api_token}"}
 )
 
+# Fetch comments for each related task
+meta_json = meta.json()
+if meta_json.get("related_tasks") and meta_json["related_tasks"].get("related"):
+    for task in meta_json["related_tasks"]["related"]:
+        task_id_for_comments = task["id"]
+        comments_response = requests.get(
+            f"{base_url}/api/v1/tasks/{task_id_for_comments}/comments",
+            headers={"Authorization": f"Bearer {api_token}"}
+        )
+        task["comments"] = comments_response.json() if comments_response.status_code == 200 else []
+
 output = {
     "labels": labels.json(),
     "projects": projects.json(), 
-    "meta": meta.json(),
+    "meta": meta_json,
     "now": datetime.now().isoformat(),
     "base_url": base_url
 }

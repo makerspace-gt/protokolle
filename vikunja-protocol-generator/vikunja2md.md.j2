@@ -9,4 +9,9 @@ Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommenta
 ## {{ (projects | selectattr('id', 'equalto', task.project_id) | first).title }}: [{{ task.title }}]({{ base_url }}/tasks/{{ task.id }}) ({{task.created | format_date('%d.%m.%Y %H:%M') }})
 
 {{ task.description }}
+{% for comment in task.comments %} {% if comment.created >= meta.start_date and comment.created <= meta.end_date %}
+### {{ comment.author.name if comment.author.name else '@' + comment.author.username }} ({{ comment.created | format_date('%d.%m.%Y %H:%M') }})
+
+{{ comment.comment }}
+{% endif %} {% endfor %}
 {% endfor %}
