@@ -63,10 +63,50 @@ def format_date(date_string, format_str='%d.%m.%Y %H:%M'):
     except:
         return date_string
 
+# Preprocess Vikunja taskLists for proper GFM conversion
+def preprocess_vikunja_tasklists(html_content):
+    if not html_content or 'data-type="taskList"' not in html_content:
+        return html_content
+    
+    import re
+    
+    # Replace Vikunja taskList structure with standard HTML that converts to GFM checkboxes
+    def replace_tasklist(match):
+        tasklist_content = match.group(1)
+        
+        # Find all taskItems within this taskList
+        taskitem_pattern = r'<li data-checked="(true|false)" data-type="taskItem">.*?<label>.*?<input type="checkbox"[^>]*>.*?<span></span></label><div>(.*?)</div></li>'
+        
+        def replace_taskitem(item_match):
+            is_checked = item_match.group(1) == 'true'
+            content = item_match.group(2)
+            
+            # Handle nested taskLists recursively
+            content = preprocess_vikunja_tasklists(content)
+            
+            # Convert to simple list item with GFM checkbox syntax
+            checkbox = '[x]' if is_checked else '[ ]'
+            return f'<li>{checkbox} {content}</li>'
+        
+        # Replace all taskItems in this taskList
+        converted_items = re.sub(taskitem_pattern, replace_taskitem, tasklist_content, flags=re.DOTALL)
+        
+        # Return as regular unordered list
+        return f'<ul>{converted_items}</ul>'
+    
+    # Replace all taskLists
+    tasklist_pattern = r'<ul data-type="taskList">(.*?)</ul>'
+    result = re.sub(tasklist_pattern, replace_tasklist, html_content, flags=re.DOTALL)
+    
+    return result
+
 # HTML to Markdown converter
 def vikunja_to_gfm(html_content):
     if not html_content:
         return ""
+    
+    # First preprocess Vikunja taskLists
+    preprocessed = preprocess_vikunja_tasklists(html_content)
     
     h = html2text.HTML2Text()
     h.ignore_links = False
@@ -75,7 +115,7 @@ def vikunja_to_gfm(html_content):
     h.unicode_snob = True
     h.escape_snob = False
     
-    return h.handle(html_content).strip()
+    return h.handle(preprocessed).strip()
 
 # Filter comments with configurable minimum comments logic
 def filter_comments_with_minimum(comments, start_date, end_date, min_comments=2):
