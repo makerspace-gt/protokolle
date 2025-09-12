@@ -105,5 +105,27 @@ template = env.get_template('vikunja2md.md.j2')
 
 rendered_markdown = template.render(**output)
 
-with open("vikunja2md.md", "w") as f:
+# Create output path based on due date and title
+import re
+due_date = meta_json.get('due_date', '')
+title = meta_json.get('title', 'protocol')
+
+if due_date:
+    year = format_date(due_date, '%Y')
+    date_str = format_date(due_date, '%Y-%m-%d')
+    
+    # Sanitize title for filename
+    safe_title = re.sub(r'[<>:"/\\|?*]', '_', title)
+    
+    # Create directory structure
+    output_dir = f"../{year}"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    output_path = f"{output_dir}/{date_str} - {safe_title}.md"
+else:
+    output_path = "vikunja2md.md"
+
+with open(output_path, "w") as f:
     f.write(rendered_markdown)
+    
+print(f"Protocol saved to: {output_path}")
