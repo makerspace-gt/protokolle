@@ -100,6 +100,64 @@ def preprocess_vikunja_tasklists(html_content):
     
     return result
 
+# Post-process markdown to clean up list formatting
+def clean_list_formatting(markdown_text):
+    if not markdown_text:
+        return ""
+    
+    import re
+    
+    # Split into lines for processing
+    lines = markdown_text.split('\n')
+    cleaned_lines = []
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        cleaned_lines.append(line)
+        
+        # If current line is a list item (starts with * or -)
+        if re.match(r'^\s*[\*\-\+]\s', line):
+            # Look ahead for blank lines
+            j = i + 1
+            blank_count = 0
+            
+            # Count consecutive blank lines after list item
+            while j < len(lines) and lines[j].strip() == '':
+                blank_count += 1
+                j += 1
+            
+            # Check what follows after the blank lines
+            if j < len(lines):
+                next_line = lines[j]
+                
+                # If next non-empty line is also a list item at same level, 
+                # reduce blank lines to maximum of 1
+                if re.match(r'^\s*[\*\-\+]\s', next_line):
+                    # Add at most 1 blank line between list items
+                    if blank_count > 1:
+                        cleaned_lines.append('')  # Add single blank line
+                        i = j - 1  # Skip the extra blank lines
+                    else:
+                        i += blank_count  # Keep existing spacing if <= 1
+                else:
+                    # Next line is not a list item - end of list
+                    # Ensure there's exactly one blank line after the list
+                    if blank_count == 0:
+                        cleaned_lines.append('')  # Add blank line after list
+                    elif blank_count > 1:
+                        cleaned_lines.append('')  # Reduce to single blank line
+                        i = j - 1  # Skip extra blank lines
+                    else:
+                        i += blank_count  # Keep existing single blank line
+            else:
+                # End of text - keep existing spacing
+                i += blank_count
+        
+        i += 1
+    
+    return '\n'.join(cleaned_lines)
+
 # HTML to Markdown converter
 def vikunja_to_gfm(html_content):
     if not html_content:
@@ -115,7 +173,10 @@ def vikunja_to_gfm(html_content):
     h.unicode_snob = True
     h.escape_snob = False
     
-    return h.handle(preprocessed).strip()
+    markdown = h.handle(preprocessed).strip()
+    
+    # Clean up list formatting
+    return clean_list_formatting(markdown)
 
 # Filter comments with configurable minimum comments logic
 def filter_comments_with_minimum(comments, start_date, end_date, min_comments=2):
