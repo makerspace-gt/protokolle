@@ -121,12 +121,58 @@ def clean_list_formatting(markdown_text):
     
     return '\n'.join(cleaned_lines)
 
+# Preprocess Vikunja tasklists to GitHub Flavored Markdown checkboxes
+def preprocess_vikunja_tasklists(html_content):
+    if not html_content:
+        return html_content
+    
+    import re
+    
+    # Find all Vikunja tasklists (including nested ones)
+    def process_tasklists(content):
+        # Pattern for Vikunja tasklists
+        taskList_pattern = r'<ul data-type="taskList">(.*?)</ul>'
+        taskItem_pattern = r'<li data-checked="(true|false)" data-type="taskItem"><label><input type="checkbox"([^>]*)><span></span></label><div>(.*?)</div></li>'
+        
+        def replace_tasklist(match):
+            tasklist_content = match.group(1)
+            
+            # First, recursively process any nested tasklists
+            tasklist_content = process_tasklists(tasklist_content)
+            
+            # Find all task items within this tasklist
+            def replace_taskitem(item_match):
+                is_checked = item_match.group(1) == 'true'
+                checkbox_attrs = item_match.group(2)
+                content = item_match.group(3)
+                
+                # Convert to GFM checkbox syntax
+                checkbox_mark = 'x' if is_checked else ' '
+                
+                # Return as simple paragraph with GFM checkbox on same line as content
+                # Replace closing </p> with space and remove opening <p> to preserve spacing
+                content_clean = re.sub(r'</p><p>', ' ', content)  # Replace adjacent p tags with space
+                content_clean = re.sub(r'</?p>', '', content_clean)  # Remove remaining p tags
+                return f'<p>- [{checkbox_mark}] {content_clean}</p>'
+            
+            # Replace all task items
+            processed_items = re.sub(taskItem_pattern, replace_taskitem, tasklist_content, flags=re.DOTALL)
+            
+            # Return as div instead of ul to avoid markdown list formatting
+            return f'<div>{processed_items}</div>'
+        
+        # Replace all tasklists
+        return re.sub(taskList_pattern, replace_tasklist, content, flags=re.DOTALL)
+    
+    return process_tasklists(html_content)
+
 # HTML to Markdown converter
 def vikunja_to_gfm(html_content):
     if not html_content:
         return ""
     
-    preprocessed = html_content
+    # Preprocess Vikunja tasklists to GFM checkboxes
+    preprocessed = preprocess_vikunja_tasklists(html_content)
 
     h = html2text.HTML2Text()
     h.ignore_links = False
@@ -137,8 +183,58 @@ def vikunja_to_gfm(html_content):
     
     markdown = h.handle(preprocessed).strip()
     
-    # Clean up list formatting
-    return clean_list_formatting(markdown)
+    # Fix escaped checkboxes from html2text
+    import re
+    markdown = re.sub(r'\\-\s+\[([ x])\]', r'- [\1]', markdown)
+    
+    # Remove excessive blank lines between checkbox items  
+    # Replace multiple blank lines with single blank line before checkboxes
+    markdown = re.sub(r'\n\n+- \[([ x])\]', r'\n- [\1]', markdown)
+    
+    # Fix indentation and remove blank lines between checkboxes and their continuation lines
+    lines = markdown.split('\n')
+    result_lines = []
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        
+        # Check if current line is a checkbox
+        if re.match(r'^- \[[ x]\]', line):
+            result_lines.append(line)
+            
+            # Process all continuation lines for this checkbox
+            j = i + 1
+            while j < len(lines):
+                next_line = lines[j]
+                
+                # If it's another list item, checkbox, or heading, stop processing
+                if re.match(r'^[-*+] |\d+\. |^- \[[ x]\]|^#{1,6} ', next_line):
+                    break
+                
+                # Skip empty lines - don't add them to result at all
+                if not next_line.strip():
+                    j += 1
+                    continue
+                    
+                # If it's a continuation line, indent it and add directly (no blank line before)
+                if not next_line.startswith('  ') and next_line.strip():
+                    result_lines.append('  ' + next_line)
+                elif next_line.startswith('  '):
+                    result_lines.append(next_line)
+                    
+                j += 1
+            
+            # Continue from where we left off
+            i = j
+            continue
+        else:
+            result_lines.append(line)
+            i += 1
+    
+    # Return final result without additional list formatting cleanup that might add blank lines back
+    final_markdown = '\n'.join(result_lines)
+    return final_markdown
 
 # Filter comments with configurable minimum comments logic
 def filter_comments_with_minimum(comments, start_date, end_date, min_comments=2):
