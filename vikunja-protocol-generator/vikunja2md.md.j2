@@ -8,10 +8,10 @@ Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommenta
 {% for task in meta.related_tasks.related %}
 ## {{ (projects | selectattr('id', 'equalto', task.project_id) | first).title }}: [{{ task.title }}]({{ base_url }}/tasks/{{ task.id }}) ({{task.created | format_date('%d.%m.%Y %H:%M') }})
 
-{{ task.description }}
+{{ task.description | vikunja_to_gfm }}
 {% for comment in task.comments | filter_comments_with_minimum(meta.start_date, meta.end_date, min_comments) %}
 ### {{ comment.author.name if comment.author.name else '@' + comment.author.username }} ({{ comment.created | format_date('%d.%m.%Y %H:%M') }})
 
-{{ comment.comment }}
+{{ comment.comment | vikunja_to_gfm }}
 {% endfor %}
 {% endfor %}

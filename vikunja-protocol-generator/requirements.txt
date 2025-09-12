@@ -9,6 +9,9 @@ Jinja2>=3.1.0
 # Optional: Better date/time handling
 python-dateutil>=2.8.0
 
+# HTML to Markdown conversion
+html2text>=2020.1.16
+
 # Development dependencies (uncomment if needed)
 # pytest>=7.0.0
 # black>=22.0.0

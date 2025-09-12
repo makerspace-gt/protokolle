@@ -6,6 +6,7 @@ import requests
 from datetime import datetime
 from dotenv import load_dotenv
 from jinja2 import Environment, FileSystemLoader
+import html2text
 
 load_dotenv(override=True)
 
@@ -62,6 +63,20 @@ def format_date(date_string, format_str='%d.%m.%Y %H:%M'):
     except:
         return date_string
 
+# HTML to Markdown converter
+def vikunja_to_gfm(html_content):
+    if not html_content:
+        return ""
+    
+    h = html2text.HTML2Text()
+    h.ignore_links = False
+    h.ignore_images = False
+    h.body_width = 0  # Don't wrap lines
+    h.unicode_snob = True
+    h.escape_snob = False
+    
+    return h.handle(html_content).strip()
+
 # Filter comments with configurable minimum comments logic
 def filter_comments_with_minimum(comments, start_date, end_date, min_comments=2):
     if not comments:
@@ -101,6 +116,7 @@ def filter_comments_with_minimum(comments, start_date, end_date, min_comments=2)
 env = Environment(loader=FileSystemLoader('.'))
 env.filters['format_date'] = format_date
 env.filters['filter_comments_with_minimum'] = filter_comments_with_minimum
+env.filters['vikunja_to_gfm'] = vikunja_to_gfm
 template = env.get_template('vikunja2md.md.j2')
 
 rendered_markdown = template.render(**output)
