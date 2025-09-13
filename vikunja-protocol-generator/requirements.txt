@@ -14,6 +14,7 @@ beautifulsoup4>=4.11.0
 
 # Optional: Better date/time handling
 python-dateutil>=2.8.0
+pytz>=2023.3
 
 # HTML to Markdown conversion
 html2text>=2020.1.16

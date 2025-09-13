@@ -6,6 +6,7 @@ Fetches task data from a Vikunja instance via REST API and generates
 German meeting protocols using Jinja2 templates.
 """
 
+import argparse
 import logging
 import os
 import re
@@ -28,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 # Constants
 FALLBACK_OUTPUT_FILENAME = "vikunja2md.md"
-TEMPLATE_FILENAME = "templates/makerspace_protocol_template.md.j2"
+DEFAULT_TEMPLATE_FILENAME = "templates/makerspace_protocol_template.md.j2"
 INVALID_FILENAME_CHARS = r'[<>:"/\\|?*]'
 FILENAME_REPLACEMENT = '_'
 
@@ -70,10 +71,10 @@ def setup_jinja_environment() -> Environment:
     return env
 
 
-def render_template(template_env: Environment, data: Dict[str, Any]) -> str:
+def render_template(template_env: Environment, template_filename: str, data: Dict[str, Any]) -> str:
     """Render the protocol template with data."""
     try:
-        template = template_env.get_template(TEMPLATE_FILENAME)
+        template = template_env.get_template(template_filename)
         return template.render(**data)
     except Exception as e:
         logger.error(f"Template rendering failed: {e}")
@@ -91,12 +92,51 @@ def save_protocol(content: str, output_path: str) -> None:
         raise
 
 
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(
+        description="Generate protocol from Vikunja task data",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python vikunja_protocol.py                                    # Use META_TASK_ID from .env
+  python vikunja_protocol.py --task-id 298                     # Use specific task ID
+  python vikunja_protocol.py --template custom_template.md.j2  # Use custom template
+  python vikunja_protocol.py --task-id 298 --template templates/posteventiv.md.j2
+        """
+    )
+    
+    parser.add_argument(
+        '--task-id',
+        type=int,
+        help='Task ID to generate protocol for (overrides META_TASK_ID from .env)'
+    )
+    
+    parser.add_argument(
+        '--template',
+        type=str,
+        default=DEFAULT_TEMPLATE_FILENAME,
+        help=f'Template file to use (default: {DEFAULT_TEMPLATE_FILENAME})'
+    )
+    
+    return parser.parse_args()
+
+
 def main():
     """Main application entry point."""
     try:
+        # Parse command line arguments
+        args = parse_arguments()
+        
         # Load and validate configuration
         logger.info("Loading configuration")
         config = Config.from_env()
+        
+        # Override task ID if provided via command line
+        if args.task_id:
+            config.meta_task_id = str(args.task_id)
+            logger.info(f"Using task ID from command line: {args.task_id}")
+        
         config.validate()
         
         # Initialize API client
@@ -105,7 +145,7 @@ def main():
         
         try:
             # Fetch data from Vikunja API
-            logger.info("Fetching data from Vikunja API")
+            logger.info(f"Fetching data from Vikunja API for task {config.meta_task_id}")
             labels = client.get_labels()
             projects = client.get_projects()
             meta_task = client.get_meta_task_with_comments()
@@ -121,9 +161,9 @@ def main():
             }
             
             # Set up template environment and render
-            logger.info("Rendering protocol template")
+            logger.info(f"Rendering protocol template: {args.template}")
             template_env = setup_jinja_environment()
-            rendered_content = render_template(template_env, output_data)
+            rendered_content = render_template(template_env, args.template, output_data)
             
             # Create output path and save protocol
             output_path = create_output_path(
