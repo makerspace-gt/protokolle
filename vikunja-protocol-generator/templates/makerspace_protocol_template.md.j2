@@ -1,0 +1,75 @@
+{#- Macros for better code organization -#}
+
+{%- macro render_assignee(assignee) -%}
+{%- if assignee.name -%}
+{{ assignee.name }} (@{{ assignee.username }})
+{%- else -%}
+@{{ assignee.username }}
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro render_assignees_list(assignees) -%}
+{%- if assignees -%}
+{%- for assignee in assignees -%}
+{{ render_assignee(assignee) }}
+{%- if not loop.last %}, {% endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro render_task_link(task, base_url) -%}
+[{{ task.title }}]({{ base_url }}/tasks/{{ task.id }})
+{%- endmacro -%}
+
+{%- macro render_agenda_overview(related_tasks, base_url) -%}
+{%- if related_tasks -%}
+{%- for task in related_tasks -%}
+{{ render_task_link(task, base_url) }}
+{%- if not loop.last %}, {% endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro render_author(author) -%}
+{%- if author.name -%}
+{{ author.name }}
+{%- else -%}
+@{{ author.username }}
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro render_project_title(task, projects) -%}
+{%- set project = projects | selectattr('id', 'equalto', task.project_id) | first -%}
+{%- if project -%}
+{{ project.title }}
+{%- else -%}
+Unbekanntes Projekt
+{%- endif -%}
+{%- endmacro -%}
+
+{#- Main template content -#}
+# Protokoll "{{ render_task_link(meta, base_url) }}" vom {{ meta.due_date | format_date('%d.%m.%Y %H:%M') }}
+
+**Anwesende:** {{ render_assignees_list(meta.assignees) }}
+
+Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }}.
+
+**Tagesordnungspunkte:** {{ render_agenda_overview(meta.related_tasks.related if meta.related_tasks else [], base_url) }}
+
+{%- if meta.related_tasks and meta.related_tasks.related %}
+{%- for task in meta.related_tasks.related %}
+
+## {{ render_project_title(task, projects) }}: {{ render_task_link(task, base_url) }} ({{ task.created | format_date('%d.%m.%Y %H:%M') }})
+
+{{ task.description | vikunja_to_gfm }}
+
+{%- set filtered_comments = task.comments | filter_comments_with_minimum(meta.start_date, meta.end_date, min_comments) %}
+{%- for comment in filtered_comments %}
+
+### {{ render_author(comment.author) }} ({{ comment.created | format_date('%d.%m.%Y %H:%M') }})
+
+{{ comment.comment | vikunja_to_gfm }}
+{%- endfor %}
+
+{%- endfor %}
+{%- endif %}

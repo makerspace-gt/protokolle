@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+"""
+Vikunja Protocol Generator - Refactored Version
+
+Fetches task data from a Vikunja instance via REST API and generates 
+German meeting protocols using Jinja2 templates.
+"""
+
+import logging
+import os
+import re
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, Any
+
+from jinja2 import Environment, FileSystemLoader
+
+from src.config import Config
+from src.vikunja_client import VikunjaClient, VikunjaAPIError
+from src.formatters import format_date, filter_comments_with_minimum, vikunja_to_gfm
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+# Constants
+FALLBACK_OUTPUT_FILENAME = "vikunja2md.md"
+TEMPLATE_FILENAME = "templates/makerspace_protocol_template.md.j2"
+INVALID_FILENAME_CHARS = r'[<>:"/\\|?*]'
+FILENAME_REPLACEMENT = '_'
+
+
+def sanitize_filename(filename: str) -> str:
+    """Sanitize filename by removing invalid characters."""
+    return re.sub(INVALID_FILENAME_CHARS, FILENAME_REPLACEMENT, filename)
+
+
+def create_output_path(due_date: str, title: str) -> str:
+    """Create output path based on due date and title."""
+    if not due_date:
+        return FALLBACK_OUTPUT_FILENAME
+    
+    try:
+        year = format_date(due_date, '%Y')
+        date_str = format_date(due_date, '%Y-%m-%d')
+        safe_title = sanitize_filename(title)
+        
+        # Create directory structure
+        output_dir = Path(f"../{year}")
+        output_dir.mkdir(exist_ok=True)
+        
+        return str(output_dir / f"{date_str} - {safe_title}.md")
+        
+    except Exception as e:
+        logger.warning(f"Failed to create path from due date '{due_date}': {e}")
+        return FALLBACK_OUTPUT_FILENAME
+
+
+
+
+def setup_jinja_environment() -> Environment:
+    """Set up Jinja2 environment with custom filters."""
+    env = Environment(loader=FileSystemLoader('.'))
+    env.filters['format_date'] = format_date
+    env.filters['filter_comments_with_minimum'] = filter_comments_with_minimum
+    env.filters['vikunja_to_gfm'] = vikunja_to_gfm
+    return env
+
+
+def render_template(template_env: Environment, data: Dict[str, Any]) -> str:
+    """Render the protocol template with data."""
+    try:
+        template = template_env.get_template(TEMPLATE_FILENAME)
+        return template.render(**data)
+    except Exception as e:
+        logger.error(f"Template rendering failed: {e}")
+        raise RuntimeError(f"Template rendering failed: {e}")
+
+
+def save_protocol(content: str, output_path: str) -> None:
+    """Save the rendered protocol to file."""
+    try:
+        with open(output_path, "w", encoding='utf-8') as f:
+            f.write(content)
+        logger.info(f"Protocol saved to: {output_path}")
+    except Exception as e:
+        logger.error(f"Failed to save protocol to {output_path}: {e}")
+        raise
+
+
+def main():
+    """Main application entry point."""
+    try:
+        # Load and validate configuration
+        logger.info("Loading configuration")
+        config = Config.from_env()
+        config.validate()
+        
+        # Initialize API client
+        logger.info("Initializing Vikunja client")
+        client = VikunjaClient(config)
+        
+        try:
+            # Fetch data from Vikunja API
+            logger.info("Fetching data from Vikunja API")
+            labels = client.get_labels()
+            projects = client.get_projects()
+            meta_task = client.get_meta_task_with_comments()
+            
+            # Prepare output data structure
+            output_data = {
+                "labels": labels,
+                "projects": projects,
+                "meta": meta_task,
+                "now": datetime.now().isoformat(),
+                "base_url": config.vikunja_base_url,
+                "min_comments": config.min_comments
+            }
+            
+            # Set up template environment and render
+            logger.info("Rendering protocol template")
+            template_env = setup_jinja_environment()
+            rendered_content = render_template(template_env, output_data)
+            
+            # Create output path and save protocol
+            output_path = create_output_path(
+                meta_task.get('due_date', ''),
+                meta_task.get('title', 'protocol')
+            )
+            save_protocol(rendered_content, output_path)
+            
+            logger.info("Protocol generation completed successfully")
+            
+        finally:
+            client.close()
+            
+    except (ValueError, VikunjaAPIError, RuntimeError) as e:
+        logger.error(f"Application error: {e}")
+        return 1
+    except KeyboardInterrupt:
+        logger.info("Operation cancelled by user")
+        return 130
+    except Exception as e:
+        logger.error(f"Unexpected error: {e}", exc_info=True)
+        return 1
+    
+    return 0
+
+
+if __name__ == "__main__":
+    exit(main())
