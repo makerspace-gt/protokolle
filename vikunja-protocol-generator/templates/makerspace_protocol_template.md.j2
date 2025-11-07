@@ -64,7 +64,7 @@ Unbekanntes Projekt
 Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }}.  
 Die Symbole bedeuten: 📝erstellt von, 📅erstellt am, 🔄aktualisiert am.
 
-**Tagesordnungspunkte:** {{ render_agenda_overview(meta.related_tasks.related if meta.related_tasks else [], base_url) }}
+**{{ (meta.related_tasks.related | length) }} Tagesordnungspunkte:** {{ render_agenda_overview(meta.related_tasks.related if meta.related_tasks else [], base_url) }}
 
 {%- if meta.related_tasks and meta.related_tasks.related %}
 {%- for task in meta.related_tasks.related %}
