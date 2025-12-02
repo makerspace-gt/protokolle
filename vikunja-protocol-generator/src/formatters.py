@@ -95,11 +95,14 @@ def _convert_with_pandoc(html_content: str) -> str:
 def _postprocess_markdown(markdown_content: str) -> str:
     """Post-process markdown to clean up links and checkboxes."""
     # Convert HTML links to cleaner format
-    markdown_content = re.sub(r'<a href="([^"]*)"[^>]*>([^<]*)</a>', r'<\1>', markdown_content)
-    
+    # First, handle links where the text is the same as the URL
+    markdown_content = re.sub(r'<a href="([^"]*)"[^>]*>\1</a>', r'<\1>', markdown_content)
+    # Then, handle links where the text differs from the URL
+    markdown_content = re.sub(r'<a href="([^"]*)"[^>]*>([^<]*)</a>', r'[\2](\1)', markdown_content)
+
     # Fix escaped checkboxes
     markdown_content = re.sub(r"\\\[(x| )\\\]", r"[\1]", markdown_content)
-    
+
     return markdown_content
 
 
