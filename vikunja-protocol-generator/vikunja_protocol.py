@@ -19,6 +19,7 @@ from jinja2 import Environment, FileSystemLoader
 from src.config import Config
 from src.vikunja_client import VikunjaClient, VikunjaAPIError
 from src.formatters import format_date, filter_comments_with_minimum, vikunja_to_gfm, embed_images_as_base64
+import re
 
 # Configure logging
 logging.basicConfig(
@@ -43,21 +44,72 @@ def create_output_path(due_date: str, title: str) -> str:
     """Create output path based on due date and title."""
     if not due_date:
         return FALLBACK_OUTPUT_FILENAME
-    
+
     try:
         year = format_date(due_date, '%Y')
         date_str = format_date(due_date, '%Y-%m-%d')
         safe_title = sanitize_filename(title)
-        
+
         # Create directory structure
         output_dir = Path(f"../{year}")
         output_dir.mkdir(exist_ok=True)
-        
+
         return str(output_dir / f"{date_str} - {safe_title}.md")
-        
+
     except Exception as e:
         logger.warning(f"Failed to create path from due date '{due_date}': {e}")
         return FALLBACK_OUTPUT_FILENAME
+
+
+def collect_mentions(meta_task: Dict[str, Any]) -> list:
+    """
+    Collect all @mentions from all comments in related tasks.
+
+    Returns a sorted list of unique user dictionaries that were mentioned.
+    """
+    mentioned_usernames = set()
+    user_pool = {}
+
+    # Build user pool from assignees and comment authors
+    if meta_task.get('assignees'):
+        for user in meta_task['assignees']:
+            username = user.get('username', '').lower()
+            if username:
+                user_pool[username] = user
+
+    if meta_task.get('related_tasks') and meta_task['related_tasks'].get('related'):
+        for task in meta_task['related_tasks']['related']:
+            # Add task assignees
+            if task.get('assignees'):
+                for user in task['assignees']:
+                    username = user.get('username', '').lower()
+                    if username:
+                        user_pool[username] = user
+
+            # Add comment authors and extract mentions
+            if task.get('comments'):
+                for comment in task['comments']:
+                    if comment.get('author'):
+                        author = comment['author']
+                        username = author.get('username', '').lower()
+                        if username:
+                            user_pool[username] = author
+
+                    # Extract @mentions from comment HTML
+                    comment_html = comment.get('comment', '')
+                    if comment_html:
+                        # Find all @username patterns
+                        mentions = re.findall(r'@([a-zA-Z0-9_-]+)', comment_html)
+                        for mention in mentions:
+                            mentioned_usernames.add(mention.lower())
+
+    # Build result list with user objects for mentioned usernames
+    result = []
+    for username in sorted(mentioned_usernames):
+        if username in user_pool:
+            result.append(user_pool[username])
+
+    return result
 
 
 
@@ -167,12 +219,17 @@ def main():
                 logger.info(f"Fetching rules task {config.rules_task_id}")
                 rules_task = client.get_task(config.rules_task_id)
 
+            # Collect all mentions from comments
+            logger.info("Collecting mentions from comments")
+            mentions = collect_mentions(meta_task)
+
             # Prepare output data structure
             output_data = {
                 "labels": labels,
                 "projects": projects,
                 "meta": meta_task,
                 "rules": rules_task,
+                "mentions": mentions,
                 "now": datetime.now().isoformat(),
                 "base_url": config.vikunja_base_url,
                 "min_comments": config.min_comments
