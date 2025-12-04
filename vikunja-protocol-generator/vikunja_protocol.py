@@ -18,7 +18,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from src.config import Config
 from src.vikunja_client import VikunjaClient, VikunjaAPIError
-from src.formatters import format_date, filter_comments_with_minimum, vikunja_to_gfm
+from src.formatters import format_date, filter_comments_with_minimum, vikunja_to_gfm, embed_images_as_base64
 
 # Configure logging
 logging.basicConfig(
@@ -62,12 +62,23 @@ def create_output_path(due_date: str, title: str) -> str:
 
 
 
-def setup_jinja_environment() -> Environment:
+def setup_jinja_environment(config: Config) -> Environment:
     """Set up Jinja2 environment with custom filters."""
     env = Environment(loader=FileSystemLoader('.'))
     env.filters['format_date'] = format_date
     env.filters['filter_comments_with_minimum'] = filter_comments_with_minimum
-    env.filters['vikunja_to_gfm'] = vikunja_to_gfm
+
+    # Create a closure for vikunja_to_gfm that includes config for image embedding
+    def vikunja_to_gfm_filter(html_content: str) -> str:
+        return vikunja_to_gfm(html_content, config.vikunja_base_url, config.vikunja_api_token)
+
+    env.filters['vikunja_to_gfm'] = vikunja_to_gfm_filter
+
+    # Create a closure for embed_images_as_base64 that includes config
+    def embed_images_filter(markdown_content: str) -> str:
+        return embed_images_as_base64(markdown_content, config.vikunja_base_url, config.vikunja_api_token)
+
+    env.filters['embed_images'] = embed_images_filter
     return env
 
 
@@ -169,7 +180,7 @@ def main():
             
             # Set up template environment and render
             logger.info(f"Rendering protocol template: {args.template}")
-            template_env = setup_jinja_environment()
+            template_env = setup_jinja_environment(config)
             rendered_content = render_template(template_env, args.template, output_data)
             
             # Create output path and save protocol

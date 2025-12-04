@@ -1,11 +1,13 @@
 """Jinja2 filters and formatting utilities for Vikunja Protocol Generator."""
 
+import base64
 import logging
 import re
 import subprocess
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
+import requests
 
 logger = logging.getLogger(__name__)
 
@@ -106,32 +108,96 @@ def _postprocess_markdown(markdown_content: str) -> str:
     return markdown_content
 
 
-def vikunja_to_gfm(html_content: Optional[str]) -> str:
+def _download_image_as_base64(url: str, api_token: str) -> Optional[str]:
+    """Download an image and convert it to base64."""
+    try:
+        headers = {'Authorization': f'Bearer {api_token}'}
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+
+        # Get content type from response
+        content_type = response.headers.get('Content-Type', 'image/png')
+
+        # Encode to base64
+        base64_data = base64.b64encode(response.content).decode('utf-8')
+
+        return f"data:{content_type};base64,{base64_data}"
+    except Exception as e:
+        logger.error(f"Failed to download image from {url}: {e}")
+        return None
+
+
+def embed_images_as_base64(markdown_content: str, base_url: str, api_token: str) -> str:
+    """
+    Find images in markdown and embed them as base64.
+
+    Args:
+        markdown_content: Markdown content with image tags
+        base_url: Vikunja base URL
+        api_token: API token for authentication
+
+    Returns:
+        Markdown content with embedded base64 images
+    """
+    if not markdown_content:
+        return ""
+
+    # Find all img tags with data-src attribute (Vikunja format)
+    img_pattern = r'<img[^>]*data-src="([^"]*)"[^>]*/?>'
+
+    def replace_image(match):
+        img_url = match.group(1)
+
+        # Make URL absolute if needed
+        if img_url.startswith('/'):
+            img_url = f"{base_url}{img_url}"
+        elif not img_url.startswith('http'):
+            img_url = f"{base_url}/{img_url}"
+
+        # Download and convert to base64
+        base64_url = _download_image_as_base64(img_url, api_token)
+
+        if base64_url:
+            return f'<img src="{base64_url}" />'
+        else:
+            # Keep original if download failed
+            return match.group(0)
+
+    return re.sub(img_pattern, replace_image, markdown_content)
+
+
+def vikunja_to_gfm(html_content: Optional[str], base_url: str = None, api_token: str = None) -> str:
     """
     Convert Vikunja HTML content to GitHub Flavored Markdown.
-    
+
     Args:
         html_content: HTML content from Vikunja
-        
+        base_url: Optional Vikunja base URL for embedding images
+        api_token: Optional API token for downloading images
+
     Returns:
         Converted markdown content
     """
     if not html_content:
         return ""
-    
+
     try:
         # Preprocessing steps
         html_content = _preprocess_html_lists(html_content)
         html_content = _clean_list_paragraphs(html_content)
-        
+
         # Convert with pandoc
         markdown_content = _convert_with_pandoc(html_content)
-        
+
         # Post-processing
         markdown_content = _postprocess_markdown(markdown_content)
-        
+
+        # Embed images as base64 if credentials provided
+        if base_url and api_token:
+            markdown_content = embed_images_as_base64(markdown_content, base_url, api_token)
+
         return markdown_content
-        
+
     except Exception as e:
         logger.error(f"HTML to markdown conversion failed: {e}")
         return html_content  # Return original content as fallback
