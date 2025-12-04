@@ -63,7 +63,7 @@ Unbekanntes Projekt
 
 **Anwesende:** {{ render_assignees_list(meta.assignees) }}
 
-Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }}.
+**Erläuterungen:** Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }}.
 Die Symbole bedeuten: 🟨offener Task, ✅abgeschlossener Task, 📝erstellt von, 📅erstellt am, 🔄aktualisiert am.
 {%- if rules %}
 
