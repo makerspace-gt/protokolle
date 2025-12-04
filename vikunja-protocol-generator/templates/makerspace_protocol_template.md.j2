@@ -71,6 +71,7 @@ Die Symbole bedeuten: 🟨offener Task, ✅abgeschlossener Task, 📝erstellt vo
 {%- if meta.related_tasks and meta.related_tasks.related %}
 {%- for task in meta.related_tasks.related %}
 
+---
 ## {{ render_task_header(task, projects, base_url) }}
 
 {{ task.description | vikunja_to_gfm }}
