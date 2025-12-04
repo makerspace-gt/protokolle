@@ -149,12 +149,19 @@ def main():
             labels = client.get_labels()
             projects = client.get_projects()
             meta_task = client.get_meta_task_with_comments()
-            
+
+            # Fetch rules task if configured
+            rules_task = None
+            if config.rules_task_id:
+                logger.info(f"Fetching rules task {config.rules_task_id}")
+                rules_task = client.get_task(config.rules_task_id)
+
             # Prepare output data structure
             output_data = {
                 "labels": labels,
                 "projects": projects,
                 "meta": meta_task,
+                "rules": rules_task,
                 "now": datetime.now().isoformat(),
                 "base_url": config.vikunja_base_url,
                 "min_comments": config.min_comments
