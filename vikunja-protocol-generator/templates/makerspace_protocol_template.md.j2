@@ -52,8 +52,8 @@ Unbekanntes Projekt
 {%- endmacro -%}
 
 {%- macro render_comment_header(comment) -%}
-📝{{ render_author(comment.author) }} 📅{{ comment.created | format_date('%d.%m.%Y %H:%M') }}
-{%- if comment.updated != comment.created %} 🔄{{ comment.updated | format_date('%d.%m.%Y %H:%M') }}{% endif -%}
+**📝{{ render_author(comment.author) }}** (📅{{ comment.created | format_date('%d.%m.%Y %H:%M') }}
+{%- if comment.updated != comment.created %} 🔄{{ comment.updated | format_date('%d.%m.%Y %H:%M') }}){%- else -%}){% endif -%}
 {%- endmacro -%}
 
 {#- Main template content -#}
@@ -83,10 +83,17 @@ Die Symbole bedeuten: 🟨offener Task, ✅abgeschlossener Task, 📝erstellt vo
 
 {%- set filtered_comments = task.comments | filter_comments_with_minimum(meta.start_date, meta.end_date, min_comments) %}
 {%- for comment in filtered_comments %}
+{%- set comment_markdown = comment.comment | vikunja_to_gfm %}
+{%- set stripped_markdown = comment_markdown.strip() %}
+{%- if '\n' in comment_markdown.strip() %}
 
-### {{ render_comment_header(comment) }}
+{{ render_comment_header(comment) }}
 
-{{ comment.comment | vikunja_to_gfm }}
+{{ comment_markdown }}
+{%- else %}
+
+{{ render_comment_header(comment) }} – {{ comment_markdown }}
+{%- endif %}
 {%- endfor %}
 
 {%- endfor %}
