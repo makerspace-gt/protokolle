@@ -196,7 +196,7 @@ def vikunja_to_gfm(html_content: Optional[str], base_url: str = None, api_token:
         if base_url and api_token:
             markdown_content = embed_images_as_base64(markdown_content, base_url, api_token)
 
-        return markdown_content
+        return markdown_content.strip()
 
     except Exception as e:
         logger.error(f"HTML to markdown conversion failed: {e}")

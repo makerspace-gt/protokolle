@@ -67,7 +67,7 @@ Unbekanntes Projekt
 **Erwähnte:** {{ render_assignees_list(mentions) }}
 {%- endif %}
 
-**Erläuterungen:** Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }}.
+**Erläuterungen:** Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} oder allen Kommentaren bei abgeschlossenen Task.  
 Die Symbole bedeuten: 🟨offener Task, ✅abgeschlossener Task, 📝erstellt von, 📅erstellt am, 🔄aktualisiert am.
 {%- if rules %}
 
@@ -85,18 +85,32 @@ Die Symbole bedeuten: 🟨offener Task, ✅abgeschlossener Task, 📝erstellt vo
 
 {{ task.description | vikunja_to_gfm }}
 
+{%- if task.done %}
+{%- set filtered_comments = task.comments %}
+{%- set old_comments = [] %}
+{%- else %}
 {%- set filtered_comments = task.comments | filter_comments_with_minimum(meta.start_date, meta.end_date, min_comments) %}
+{%- set old_comments = [] %}
+{%- for comment in task.comments %}
+{%- if comment not in filtered_comments %}
+{%- set _ = old_comments.append(comment) %}
+{%- endif %}
+{%- endfor %}
+{%- endif %}
+{%- if old_comments | length > 0 %}
+
+**{{ old_comments | length }} ältere{{ 'r Kommentar' if old_comments | length == 1 else ' Kommentare' }}** (nicht im Protokoll)
+{%- endif %}
 {%- for comment in filtered_comments %}
-{%- set comment_markdown = comment.comment | vikunja_to_gfm %}
-{%- set stripped_markdown = comment_markdown.strip() %}
-{%- if '\n' in comment_markdown.strip() %}
+{%- set comment_gfm = comment.comment | vikunja_to_gfm %}
+{%- if '\n' in comment_gfm %}
 
 {{ render_comment_header(comment) }}
 
-{{ comment_markdown }}
+{{ comment_gfm }}
 {%- else %}
 
-{{ render_comment_header(comment) }} – {{ comment_markdown }}
+{{ render_comment_header(comment) }} – {{ comment_gfm }}
 {%- endif %}
 {%- endfor %}
 
