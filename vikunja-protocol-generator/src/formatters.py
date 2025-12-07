@@ -92,13 +92,34 @@ def _convert_with_pandoc(html_content: str) -> str:
         raise RuntimeError("Pandoc not found. Please install pandoc.")
 
 
+def _convert_html_tags_in_text(text: str) -> str:
+    """Convert common HTML tags to markdown within link text."""
+    # Convert strong/b to markdown bold
+    text = re.sub(r'<strong>(.*?)</strong>', r'**\1**', text)
+    text = re.sub(r'<b>(.*?)</b>', r'**\1**', text)
+    # Convert em/i to markdown italic
+    text = re.sub(r'<em>(.*?)</em>', r'*\1*', text)
+    text = re.sub(r'<i>(.*?)</i>', r'*\1*', text)
+    # Convert code to markdown code
+    text = re.sub(r'<code>(.*?)</code>', r'`\1`', text)
+    return text
+
+
 def _postprocess_markdown(markdown_content: str) -> str:
     """Post-process markdown to clean up links and checkboxes."""
     # Convert HTML links to cleaner format
     # First, handle links where the text is the same as the URL
     markdown_content = re.sub(r'<a href="([^"]*)"[^>]*>\1</a>', r'<\1>', markdown_content)
-    # Then, handle links where the text differs from the URL
-    markdown_content = re.sub(r'<a href="([^"]*)"[^>]*>([^<]*)</a>', r'[\2](\1)', markdown_content)
+
+    # Then, handle links where the text differs from the URL (including nested HTML tags)
+    def convert_link(match):
+        url = match.group(1)
+        text = match.group(2)
+        # Convert HTML tags in link text to markdown
+        text = _convert_html_tags_in_text(text)
+        return f'[{text}]({url})'
+
+    markdown_content = re.sub(r'<a href="([^"]*)"[^>]*>(.*?)</a>', convert_link, markdown_content)
 
     # Fix escaped checkboxes
     markdown_content = re.sub(r"\\\[(x| )\\\]", r"[\1]", markdown_content)
