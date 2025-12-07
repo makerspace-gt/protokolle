@@ -24,7 +24,7 @@
 {%- macro render_agenda_overview(related_tasks, base_url) -%}
 {%- if related_tasks -%}
 {%- for task in related_tasks -%}
-{{ render_task_link(task, base_url) }}
+{% if task.done %}✅{% else %}🟨{% endif %} {{ render_task_link(task, base_url) }}
 {%- if not loop.last %}, {% endif -%}
 {%- endfor -%}
 {%- endif -%}
@@ -48,12 +48,12 @@ Unbekanntes Projekt
 {%- endmacro -%}
 
 {%- macro render_task_header(task, projects, base_url) -%}
-{% if task.done %}✅{% else %}🟨{% endif %} {{ render_project_title(task, projects) }}: {{ render_task_link(task, base_url) }} 📅{{ task.created | format_date('%d.%m.%Y %H:%M') }}
+{% if task.done %}✅{% else %}🟨{% endif %} {{ render_project_title(task, projects) }}: {{ render_task_link(task, base_url) }} {{ task.created | format_date('%d.%m.%Y') }}
 {%- endmacro -%}
 
 {%- macro render_comment_header(comment) -%}
-**📝{{ render_author(comment.author) }}** (📅{{ comment.created | format_date('%d.%m.%Y %H:%M') }}
-{%- if comment.updated != comment.created %} 🔄{{ comment.updated | format_date('%d.%m.%Y %H:%M') }}){%- else -%}){% endif -%}
+**📝 {{ render_author(comment.author) }}** ({{ comment.created | format_date('%d.%m.%Y %H:%M') }}
+{%- if comment.updated != comment.created %} 🔄 {{ comment.updated | format_date('%d.%m.%Y %H:%M') }}){%- else -%}){% endif -%}
 {%- endmacro -%}
 
 {#- Main template content -#}
@@ -68,7 +68,7 @@ Unbekanntes Projekt
 {%- endif %}
 
 **Erläuterungen:** Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} oder allen Kommentaren bei abgeschlossenen Task.  
-Die Symbole bedeuten: 🟨offener Task, ✅abgeschlossener Task, 📝erstellt von, 📅erstellt am, 🔄aktualisiert am.
+Die Symbole bedeuten: 🟨 offener Task, ✅ abgeschlossener Task, 📝 erstellt von, 🔄 aktualisiert am.
 {%- if rules %}
 
 **{{ rules.title }}:**  

@@ -103,7 +103,7 @@ def _postprocess_markdown(markdown_content: str) -> str:
     # Fix escaped checkboxes
     markdown_content = re.sub(r"\\\[(x| )\\\]", r"[\1]", markdown_content)
 
-    return markdown_content
+    return markdown_content.strip()
 
 
 def vikunja_to_gfm(html_content: Optional[str]) -> str:
