@@ -2,6 +2,7 @@ TL;DR (too long; didn't read)
 - Die Mitgliederversammlung ist am Samstag, dem 14. März 2026, ab 11:00 Uhr im Klimabüro oder online über <https://public.senfcall.de/makerspace-gt>
 - Bitte die Umfrage ausfüllen <https://nuudel.digitalcourage.de/XcYSv3hgFB8eh9Nw>
 - Weitere Themen über einen beliebigen Kanal (Forum, Signal, E-Mail, Gespräch, ...) ergänzen
+- Bitte an dem Tag **kein Parfüm** benutzen, wenn ihr in Präsenz dabei seid
 - Alle Mitglieder erhalten eine Einladung per E-Mail
 
 ---
@@ -41,7 +42,8 @@ Auf der Tagesordnung stehen folgende Themen:
 
 Anträge zur Ergänzung der Tagesordnung müssen gemäß § 8 Abs. 5 der Satzung bis eine Woche vor der Versammlung schriftlich an alle Mitglieder versandt werden, damit der Vorstand sie noch auf die Tagesordnung setzen kann.
 
-Um zahlreiches und pünktliches Erscheinen wird gebeten.
+Um zahlreiches und pünktliches Erscheinen wird gebeten.  
+Bitte an dem Tag **kein Parfüm** benutzen, wenn ihr in Präsenz dabei seid.
 
 Viele Grüße  
 Michael Prange
