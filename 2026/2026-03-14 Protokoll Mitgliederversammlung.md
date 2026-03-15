@@ -120,7 +120,7 @@ Tim eröffnete die Versammlung, begrüßte die Anwesenden herzlich, zeigt die [P
   - Ja: 11 Stimmen
   - Nein: 0 Stimmen
   - Enthaltung: 0 Stimmen
-- Martin stellte den Initiativantrag die Tagesordnungspunkte "7. Ausblicke für das Jahr 2026" und "9. Beschließen der Ziele für das Jahr 2026" auf eine außerordentliche Mitgliederversammlung am 28. April 2026, 19:00 Uhr zu verschieben, da heute nur wenig Mitglieder anwesend waren und der Vorstand nicht vollzählig ist.
+- Martin stellte den Initiativantrag die Tagesordnungspunkte "7. Ausblicke für das Jahr 2026" und "9. Beschließen der Ziele für das Jahr 2026" auf eine außerordentliche Mitgliederversammlung am 28. April 2026, 19:00 Uhr zu verschieben, da heute nur wenig Mitglieder anwesend waren und der Vorstand nicht vollzählig war.
   - Ja: 11 Stimmen
   - Nein: 0 Stimmen
   - Enthaltung: 0 Stimmen
@@ -131,10 +131,10 @@ Tim eröffnete die Versammlung, begrüßte die Anwesenden herzlich, zeigt die [P
 
 Michael berichtete, dass eine externe Raumsuche nicht erfolgreich war, da die Objekte zu teuer sind.
 
-Michael und Felix berichteten zum Staus der Weberei.
-Seid Januar haben wir keinen freien Zutritt mehr zum Makerspace. 
+Michael und Felix berichteten zum Status der Weberei.
+Seit Januar haben wir keinen freien Zutritt mehr zum Makerspace. 
 Die Kernsanierung der Weberei hat begonnen und betrifft den kompletten Nordteil (Gastro, Disco, ...).
-Der erste und zweite Stock müssen Brandschutztechnisch ertüchtigt werden und stehen bis mindestens Sommer nicht zur Verfügung.
+Der erste und zweite Stock müssen brandschutztechnisch ertüchtigt werden und stehen bis mindestens Sommer nicht zur Verfügung.
 Studio, Atelier und alle Lagerräume im Südtrakt können von allen Interessensgruppen gemeinsam genutzt werden. Lager 2 kann exklusiv vom Makerspace genutzt werden.
 Ein "Stundenplan" zur Nutzung des Studio und Atelier wird vom Weberei-Förderverein ausgearbeitet. Die Nutzung ist voraussichtlich ab dem 1. April wieder möglich.
 Es gibt etwa zehn Interessensgruppen, die sich die Räume teilen müssen.
@@ -144,9 +144,9 @@ Es stehen bis zu vier Räume zur Verfügung die wir je nach Budget anmieten kön
 Seitens Stadt gibt es verschiedene Budget-Töpfe (1. Gastro Renovierung, 2. Brandschutzertüchtigung, 3. Einzug Fachbereich Kultur).
 Der Fachbereich Kultur soll in den Büroräumen im 1. Stock einziehen.
 
-Ralf bringt ein noch weitere Firmen als Partnerschaften zu gewinnen, um Drittmittel für die Renovierung und/oder Miete einzuwerben oder ggf. dort Räume zu bekommen.
+Ralf bringt ein, noch weitere Firmen als Partnerschaften zu gewinnen, um Drittmittel für die Renovierung und/oder Miete einzuwerben oder ggf. dort Räume zu bekommen.
 
-Weiterhin können wir auch das Klimabüro für Termine wie Spieleabend, Nähbar, kreativraum, etvc. nutzen.
+Weiterhin können wir auch das Klimabüro für Termine wie Spieleabend, Nähbar, kreativraum, etc. nutzen.
 
 ### 3.2. [Meilensteine des Makerspace Gütersloh im Jahr 2025](https://forum.makerspace-gt.de/t/meilensteine-des-makerspace-guetersloh/119/7)
 
@@ -166,10 +166,10 @@ Tim stellte bebildert ausgewählte Meilensteine vor.
 - Weberei Förderverein
 - Entsorgungszentrum Ecowest
 - kreativraum
-  - zwei Termine fanden Statt
+  - zwei Termine fanden statt
   - muss sich noch entwickeln
   - vier weitere Termine geplant in der Stadtbibliothek
-  - wir bekommen 250 € pro krativraum zzgl. Material und Miete
+  - wir bekommen 250 € pro kreativraum zzgl. Material und Miete
   - kreativraum Konferenz in der Wissenswerkstatt am 5. Mai
   - Michael wünscht sich, dass ein Ré­su­mé im Forum gepostet wird "Tue Gutes und rede darüber"
 - Brandschutzkonzept
@@ -200,7 +200,7 @@ Verschiedene Personen stellten bebildert die Umsetzung der weitergeführten Besc
   - wurde 2025 nicht weiterverfolgt
   - ggf. mit neuen Räumlichkeiten weiterführen und Attraccess nutzen
 - Beleben des [Wiki](https://wiki.makerspace-gt.de) (Martin)
-  - Idee: organisierte Treffen veranstalten um Wissen zusammenzutragen (z.B. aus dem Forum und Signalgruppen)
+  - Idee: organisierte Treffen veranstalten, um Wissen zusammenzutragen (z.B. aus dem Forum und Signalgruppen)
 - [Code of Conduct](https://forum.makerspace-gt.de/t/code-of-conduct-awareness/843) (Michael)
   - Diskussion der Umfrageergebnisse steht noch aus
 - [Öffnungszeiten / Schlüssel](https://forum.makerspace-gt.de/t/gestaltung-der-oeffnungszeiten-fuer-unseren-makerspace/853) (Michael)
@@ -210,7 +210,7 @@ Verschiedene Personen stellten bebildert die Umsetzung der weitergeführten Besc
 
 ---
 
-12:52 Uhr: Kurt verlässt versammlung und spricht sich für eine Entlastung des Vorstands aus.
+12:52 Uhr: Kurt verlässt Versammlung und spricht sich für eine Entlastung des Vorstands aus.
 
 ---
 
@@ -229,7 +229,7 @@ Verschiedene Personen stellten bebildert die Umsetzung der Beschlüsse der Mitgl
 - [AG Cyber](https://forum.makerspace-gt.de/t/projekt-team-it-infrastruktur/504) (Michael)
   - nun Regelmäig am 3. Donnerstag im Monat zusammen mit dem 4830.org e.V. (dem Verein hinter der Freifunkinitiative im Kreis Gütersloh)
 - [Kaffee und Kuchen](https://forum.makerspace-gt.de/t/treff-bei-kaffee-und-kuchen/922) (Tim & Martin)
-  - Vierteljährigen Austausch etablieren Kaffe & Kuchen zum Thema ...
+  - fand 2025 nicht statt, geplant war es, einen vierteljährlichen Austausch zu etablieren (bspw. zum Thema Retrogames)
 - [make it sew](https://forum.makerspace-gt.de/t/make-it-sew-heimatscheck/1070) (Michael)
 - Jugendarbeit
   - [Türen auf mit der Maus](https://forum.makerspace-gt.de/t/tueren-auf-tag-mit-der-maus/1073) (Klaus-Jürgen)
@@ -239,7 +239,7 @@ Verschiedene Personen stellten bebildert die Umsetzung der Beschlüsse der Mitgl
     - neuer Workshop für 2026 steht noch aus
     - ggf. Kooperation mit der HSBI
 - [Carrera Bahn](https://forum.makerspace-gt.de/t/mario-carrera-revival/988) (Tim)
-  - wurde nun nach Fulda zu Leon verschickt um dort wiederbelet zu werden
+  - wurde nun nach Fulda zu Leon verschickt um dort wiederbelebt zu werden
 
 ## 4. Bericht der Schatzmeister*in
 
@@ -256,7 +256,7 @@ Martin stellte die Einnahmen und Ausgaben in tabellarischer Form nach [Kategorie
   - Entnahmen von Wechselgeld für die Spendendose nach den Kassenzählungen
 - Mitglieder zum 31.12.2024: 38 (davon 4 Fördermitglieder)
 
-Vorschlag von Cord: Der Makerspace soll Mitglied im 4830.org e.V. werden, um nutzung IT-Infrastruktur auszugleichen.
+Vorschlag von Cord: Der Makerspace soll Mitglied im 4830.org e.V. werden, um Nutzung der IT-Infrastruktur auszugleichen.
 
 ## 5. Kassenprüfung
 
@@ -267,7 +267,7 @@ Dieser Tagesordnungspunkt wurde aufgrund des Initiativantrags auf die außerorde
 ### 5.2. Wahl einer Kassenprüfer*in 2026 / 2027
 
 - Ralf stellte das Amt vor
-  - Es geht darum die Ausgaben des Vereins (stichpunktartig) zu Prüfen und die Entlastung der Schatzmeister*in zu beantragen, sofern es nichts zu Beanstanden gab.
+  - Es geht darum die Ausgaben des Vereins (stichpunktartig) zu prüfen und die Entlastung der Schatzmeister*in zu beantragen, sofern es nichts zu beanstanden gab.
 - Dieser Tagesordnungspunkt wurde auf die außerordentliche Mitgliederversammlung am 28. April 2026, 19:00 Uhr verschoben, da sich niemand zur Wahl gestellt hat.
 
 ## 6. Entlastungen
@@ -289,7 +289,7 @@ Dieser Tagesordnungspunkt wurde aufgrund des Initiativantrags auf die außerorde
 # 7. Ausblicke für das Jahr 2026
 
 - Dieser Tagesordnungspunkt wurde aufgrund des Initiativantrags auf die außerordentliche Mitgliederversammlung am 28. April 2026, 19:00 Uhr verschoben.
-- Michael stellte kurz die geplanten Ausblicke vor ohne ins Detail zu gehen.
+- Michael stellte kurz die geplanten Ausblicke vor, ohne ins Detail zu gehen.
   - [kreativraum](https://forum.makerspace-gt.de/t/kreativraum-makerspace-gt/1054) (Martin)
   - [Türen auf mit der Maus](https://forum.makerspace-gt.de/t/tueren-auf-tag-mit-der-maus/1073) (Klaus-Jürgen)
   - [Monitoring von IT, Umbauten, ausgeliehenen Geräten](https://forum.makerspace-gt.de/t/monitoring-von-it-umbauten-ausgeliehenen-geraeten/999) (Michael)
