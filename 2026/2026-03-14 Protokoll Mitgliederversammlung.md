@@ -1,27 +1,14 @@
 # Protokoll der ordentlichen  Mitgliederversammlung des Makerspace&nbsp;Gütersloh&nbsp;e.V
 
-Es versammelten sich heute, am 14. März 2026 um 11:00 Uhr im Klimabüro, Schulstraße 5, 33330 Gütersloh und per Videokonferenz unter **<https://public.senfcall.de/makerspace-gt>**
-13 Personen
-zur ordentlichen Mitgliederversammlung des **Makerspace&nbsp;Gütersloh&nbsp;e.V.**
+Es versammelten sich heute, am 14. März 2026 um 11:00 Uhr im Klimabüro, Schulstraße 5, 33330 Gütersloh und per Videokonferenz unter **[https://public.senfcall.de/makerspace-gt](https://public.senfcall.de/makerspace-gt)** 13 Personen zur ordentlichen Mitgliederversammlung des **Makerspace&nbsp;Gütersloh&nbsp;e.V.**
 
 ### Anwesende Mitglieder
 
-Birgit Peitz,
-Felix Kupferschmidt (ab 11:20 Uhr),
-Klaus-Jürgen Großekathöfer,
-Kurt Gramlich (ab 11:20 Uhr, bis 12:52 Uhr),
-Martin Teuber,
-Michael Prange,
-Niels Fechtel,
-Ralf Ehlers,
-Reinhard Peitz,
-Simone Peitz,
-Tim Lakämper
+Birgit Peitz, Felix Kupferschmidt (ab 11:20 Uhr), Klaus-Jürgen Großekathöfer, Kurt Gramlich (ab 11:20 Uhr, bis 12:52 Uhr), Martin Teuber, Michael Prange, Niels Fechtel, Ralf Ehlers, Reinhard Peitz, Simone Peitz, Tim Lakämper
 
 ### Gäste
 
-Cord Beermann,
-Michele Wegner (Remote)
+Cord Beermann, Michele Wegner (Remote)
 
 ---
 
@@ -364,9 +351,7 @@ Dieser Tagesordnungspunkt wurde aufgrund des Initiativantrags auf die außerorde
 
 ---
 
-Die Versammlung wurde um
-14:13 Uhr
-geschlossen.  
+Die Versammlung wurde um 14:13 Uhr geschlossen.  
 
 Gütersloh, 14. März 2026  
 \
@@ -381,5 +366,5 @@ Michael Prange (Protokollführung)
 
 # Anhänge
 
-- [2026-03-14 Makerspace MV 2026.pdf](2026-03-14%20Makerspace%20MV%202026.pdf)
-- [2026-03-14 Kassenbericht 2025.pdf](2026-03-14%20Kassenbericht%202025.pdf)
+- [2026-03-14 Makerspace MV 2026.pdf](https://raw.githubusercontent.com/makerspace-gt/protokolle/refs/heads/main/2026/2026-03-14%20Makerspace%20MV%202026.pdf)
+- [2026-03-14 Kassenbericht 2025.pdf](https://raw.githubusercontent.com/makerspace-gt/protokolle/refs/heads/main/2026/2026-03-14%20Kassenbericht%202025.pdf)
