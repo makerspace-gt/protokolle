@@ -214,7 +214,7 @@ Verschiedene Personen stellten bebildert die Umsetzung der Beschlüsse der Mitgl
   - moderiertes Treffen veranstalten, um die Art und Weise der Kommunikation zu besprechen
 - [Nacht der Bibliotheken](https://forum.makerspace-gt.de/t/nacht-der-bibliotheken/987) (Tim)
 - [AG Cyber](https://forum.makerspace-gt.de/t/projekt-team-it-infrastruktur/504) (Michael)
-  - nun Regelmäig am 3. Donnerstag im Monat zusammen mit dem 4830.org e.V. (dem Verein hinter der Freifunkinitiative im Kreis Gütersloh)
+  - nun Regelmäßig am 3. Donnerstag im Monat zusammen mit dem 4830.org e.V. (dem Verein hinter der Freifunkinitiative im Kreis Gütersloh)
 - [Kaffee und Kuchen](https://forum.makerspace-gt.de/t/treff-bei-kaffee-und-kuchen/922) (Tim & Martin)
   - fand 2025 nicht statt, geplant war es, einen vierteljährlichen Austausch zu etablieren (bspw. zum Thema Retrogames)
 - [make it sew](https://forum.makerspace-gt.de/t/make-it-sew-heimatscheck/1070) (Michael)
