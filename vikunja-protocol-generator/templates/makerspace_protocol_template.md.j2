@@ -52,8 +52,8 @@ Unbekanntes Projekt
 {%- endmacro -%}
 
 {%- macro render_comment_header(comment) -%}
-**📝 {{ render_author(comment.author) }}** ({{ comment.created | format_date('%d.%m.%Y %H:%M') }}
-{%- if comment.updated != comment.created %} 🔄 {{ comment.updated | format_date('%d.%m.%Y %H:%M') }}){%- else -%}){% endif -%}
+**📝 {{ render_author(comment.author) }}** ({{ comment.created | format_date('%d.%m.%Y') }}
+{%- if comment.updated | format_date('%Y-%m-%d') != comment.created | format_date('%Y-%m-%d') %} 🔄 {{ comment.updated | format_date('%d.%m.%Y') }}){%- else -%}){% endif -%}
 {%- endmacro -%}
 
 {#- Main template content -#}
@@ -67,7 +67,7 @@ Unbekanntes Projekt
 **Erwähnte:** {{ render_assignees_list(mentions) }}
 {%- endif %}
 
-**Erläuterungen:** Generiert am {{ now | format_date('%d.%m.%Y %H:%M') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} oder allen Kommentaren bei abgeschlossenen Task.  
+**Erläuterungen:** Generiert am {{ now | format_date('%d.%m.%Y') }} aus Vikunja, mit Kommentaren ab dem {{ meta.start_date | format_date('%d.%m.%Y %H:%M') }} bis zum {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} und falls vorhanden mindestens die letzten {{ min_comments }} Kommentare vor dem {{ meta.end_date | format_date('%d.%m.%Y %H:%M') }} oder allen Kommentaren bei abgeschlossenen Task.  
 Die Symbole bedeuten: 🟨 offener Task, ✅ abgeschlossener Task, 📝 erstellt von, 🔄 aktualisiert am.
 {%- if rules %}
 
