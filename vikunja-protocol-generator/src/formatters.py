@@ -50,8 +50,8 @@ def _preprocess_html_lists(html_content: str) -> str:
     """Preprocess HTML content to handle task lists and regular lists."""
     # Convert Vikunja checklist HTML to regular list HTML
     html_content = re.sub(r'<ul data-type="taskList">', '<ul>', html_content)
-    html_content = re.sub(r'<li[^>]*data-checked="false" data-type="taskItem"[^>]*>', '<li>[ ] ', html_content)
-    html_content = re.sub(r'<li[^>]*data-checked="true" data-type="taskItem"[^>]*>', '<li>[x] ', html_content)
+    html_content = re.sub(r'<li[^>]*data-checked="false"[^>]*(?:data-type="taskItem"[^>]*)?>', '<li>[ ] ', html_content)
+    html_content = re.sub(r'<li[^>]*data-checked="true"[^>]*(?:data-type="taskItem"[^>]*)?>', '<li>[x] ', html_content)
     html_content = re.sub(r'<label><input[^>]*><span></span></label>', '', html_content)
     
     return html_content
