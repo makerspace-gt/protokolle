@@ -35,6 +35,17 @@ def format_date(date_string: Optional[str], format_str: str = DEFAULT_DATE_FORMA
         return str(date_string) if date_string else ""
 
 
+def _preprocess_mentions(html_content: str) -> str:
+    """Convert Vikunja mention-user elements to @username text."""
+    def replace_mention(match):
+        id_attr = re.search(r'data-id="([^"]*)"', match.group(0))
+        if id_attr:
+            return f'@{id_attr.group(1)}'
+        return '@mention'
+
+    return re.sub(r'<mention-user[^>]*></mention-user>', replace_mention, html_content)
+
+
 def _preprocess_html_lists(html_content: str) -> str:
     """Preprocess HTML content to handle task lists and regular lists."""
     # Convert Vikunja checklist HTML to regular list HTML
@@ -142,6 +153,7 @@ def vikunja_to_gfm(html_content: Optional[str]) -> str:
     
     try:
         # Preprocessing steps
+        html_content = _preprocess_mentions(html_content)
         html_content = _preprocess_html_lists(html_content)
         html_content = _clean_list_paragraphs(html_content)
         
